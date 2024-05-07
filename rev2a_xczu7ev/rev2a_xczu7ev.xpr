@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="65" Path="/home/madorsky/github/apollo/SM_ZYNQ_FW/Projects/rev2a_xczu7ev/rev2a_xczu7ev.xpr">
+<Project Product="Vivado" Version="7" Minor="65" Path="/home/madorsky/github/apollo/apollo_sm_vivado/rev2a_xczu7ev/rev2a_xczu7ev.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="47466b3b38124d4f876f068d740be5ee"/>
@@ -91,7 +91,7 @@
   <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/cores/onboardclk/onboardclk.xci">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/cores/onboardclk/onboardclk.xci">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -216,109 +216,109 @@
           <Proxy FileSetName="zynq_bd_xbar_2"/>
         </CompFileExtendedInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/AXI_slave_pkg.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/AXI_slave_pkg.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/CM/CM_PKG.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/CM/CM_PKG.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/types.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/types.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../regmap_helper/axiReg/axiRegWidthPkg_32.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/regmap_helper/axiReg/axiRegWidthPkg_32.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../regmap_helper/axiReg/axiRegPkg.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/regmap_helper/axiReg/axiRegPkg.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../regmap_helper/axiReg/bramPortPkg.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/regmap_helper/axiReg/bramPortPkg.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../regmap_helper/axiReg/axiRegBlocking.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/regmap_helper/axiReg/axiRegBlocking.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/CM/CM_map.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/CM/CM_map.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/Global_PKG.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/Global_PKG.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/PLXVC/PLXVC_PKG.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/PLXVC/PLXVC_PKG.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/PLXVC/PLXVC_map.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/PLXVC/PLXVC_map.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/SERV/SERV_PKG.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/SERV/SERV_PKG.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../regmap_helper/axiReg/axiReg.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/regmap_helper/axiReg/axiReg.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/SERV/SERV_map.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/SERV/SERV_map.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/SM_INFO/SM_INFO_PKG.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/SM_INFO/SM_INFO_PKG.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/SM_INFO/SM_INFO_map.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/SM_INFO/SM_INFO_map.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../regmap_helper/axiReg/axiRegPkg_d64.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/regmap_helper/axiReg/axiRegPkg_d64.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -331,252 +331,252 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/front_panel/Button_Debouncer.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/front_panel/Button_Debouncer.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/front_panel/Button_Decoder.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/front_panel/Button_Decoder.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../regmap_helper/axiReg/axiRegMaster.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/regmap_helper/axiReg/axiRegMaster.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/CM_interface/picoblaze/uart_rx6.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/CM_interface/picoblaze/uart_rx6.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/uart_rx6.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/uart_rx6.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/counter.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/counter.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/CM_interface/CM_Monitoring/CM_Monitoring.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/CM_interface/CM_Monitoring/CM_Monitoring.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/CM_interface/CM_package.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/CM_interface/CM_package.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/CM_interface/picoblaze/picoblaze/cli.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/CM_interface/picoblaze/picoblaze/cli.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/CM_interface/picoblaze/uC.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/CM_interface/picoblaze/uC.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/CM_interface/CM_pwr.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/CM_interface/CM_pwr.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/DC_data_CDC.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/DC_data_CDC.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/pacd.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/pacd.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/data_CDC.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/data_CDC.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/capture_CDC.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/capture_CDC.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/rate_counter.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/rate_counter.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/counter_CDC.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/counter_CDC.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/CM_interface/CM_interface.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/CM_interface/CM_interface.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/services/CPLD_INFO/CPLD_INFO.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/services/CPLD_INFO/CPLD_INFO.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/front_panel/LED_Encoder.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/front_panel/LED_Encoder.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/front_panel/FrontPanel_UI.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/front_panel/FrontPanel_UI.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/IPMC_i2c_slave/i2c_slave.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/IPMC_i2c_slave/i2c_slave.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/asym_dualport_ram.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/asym_dualport_ram.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/IPMC_i2c_slave/IPMC_i2c_slave.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/IPMC_i2c_slave/IPMC_i2c_slave.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/front_panel/LED_Paterns.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/front_panel/LED_Paterns.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/misc/XILINX_DNA.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/misc/XILINX_DNA.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/SM_info/SM_info.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/SM_info/SM_info.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/front_panel/SR_Out.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/front_panel/SR_Out.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/CM_interface/picoblaze/picoblaze/kcpsm6.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/CM_interface/picoblaze/picoblaze/kcpsm6.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/plXVC/virtualJTAG.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/plXVC/virtualJTAG.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/plXVC/plXVC_intf.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/plXVC/plXVC_intf.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/register_pkg.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/register_pkg.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/services/services_rev2.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/services/services_rev2.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/CM_interface/picoblaze/uart_tx6.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/src/CM_interface/picoblaze/uart_tx6.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/src/top.vhd">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/src/top.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/cores/CPLD_DEBUG/CPLD_DEBUG.xci">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/cores/CPLD_DEBUG/CPLD_DEBUG.xci">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -584,7 +584,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/autogen/cores/IPMC_i2c_DEBUG/IPMC_i2c_DEBUG.xci">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/autogen/cores/IPMC_i2c_DEBUG/IPMC_i2c_DEBUG.xci">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -622,19 +622,19 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/src/top.xdc">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/src/top.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/src/top_clocks.xdc">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/src/top_clocks.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../configs/rev2a_xczu7ev/src/top_MGMT.xdc">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/configs/rev2a_xczu7ev/src/top_MGMT.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -663,7 +663,7 @@
     </FileSet>
     <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
       <Filter Type="Utils"/>
-      <File Path="$PPRDIR/../../Hog/Tcl/integrated/pre-synthesis.tcl">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/pre-synthesis.tcl">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -671,7 +671,7 @@
           <Attr Name="UsedInSteps" Val="synth_1;SYNTH_DESIGN;TCL.PRE"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Hog/Tcl/integrated/post-synthesis.tcl">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/post-synthesis.tcl">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -679,7 +679,7 @@
           <Attr Name="UsedInSteps" Val="synth_1;SYNTH_DESIGN;TCL.POST"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Hog/Tcl/integrated/pre-implementation.tcl">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/pre-implementation.tcl">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -687,7 +687,7 @@
           <Attr Name="UsedInSteps" Val="impl_1;INIT_DESIGN;TCL.POST"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Hog/Tcl/integrated/post-implementation.tcl">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/post-implementation.tcl">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -695,7 +695,7 @@
           <Attr Name="UsedInSteps" Val="impl_1;ROUTE_DESIGN;TCL.POST"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Hog/Tcl/integrated/pre-bitstream.tcl">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/pre-bitstream.tcl">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -703,7 +703,7 @@
           <Attr Name="UsedInSteps" Val="impl_1;WRITE_BITSTREAM;TCL.PRE"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Hog/Tcl/integrated/post-bitstream.tcl">
+      <File Path="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/post-bitstream.tcl">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -1489,7 +1489,7 @@
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xczu7ev-fbvb900-2-i" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" IncrementalCheckpoint="$PSRCDIR/utils_1/imports/synth_1/top.dcp" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
-        <Step Id="synth_design" PostStepTclHook="$PPRDIR/../../Hog/Tcl/integrated/post-synthesis.tcl" PreStepTclHook="$PPRDIR/../../Hog/Tcl/integrated/pre-synthesis.tcl"/>
+        <Step Id="synth_design" PostStepTclHook="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/post-synthesis.tcl" PreStepTclHook="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/pre-synthesis.tcl"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
@@ -1869,19 +1869,19 @@
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xczu7ev-fbvb900-2-i" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" LaunchOptions="-jobs 10 " AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
-        <Step Id="init_design" PostStepTclHook="$PPRDIR/../../Hog/Tcl/integrated/pre-implementation.tcl"/>
+        <Step Id="init_design" PostStepTclHook="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/pre-implementation.tcl"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
         <Step Id="place_design"/>
         <Step Id="post_place_power_opt_design"/>
         <Step Id="phys_opt_design"/>
-        <Step Id="route_design" PostStepTclHook="$PPRDIR/../../Hog/Tcl/integrated/post-implementation.tcl"/>
+        <Step Id="route_design" PostStepTclHook="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/post-implementation.tcl"/>
         <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream" PostStepTclHook="$PPRDIR/../../Hog/Tcl/integrated/post-bitstream.tcl" PreStepTclHook="$PPRDIR/../../Hog/Tcl/integrated/pre-bitstream.tcl"/>
+        <Step Id="write_bitstream" PostStepTclHook="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/post-bitstream.tcl" PreStepTclHook="$PPRDIR/../../SM_ZYNQ_FW/Hog/Tcl/integrated/pre-bitstream.tcl"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023" CtrlBit="true">
-        <ReportConfig DisplayName="Timing Summary - Design Initialization" Name="impl_1_init_report_timing_summary_0" Spec="report_timing_summary" RunStep="init_design" ReportFile="top_timing_summary_init.rpt" Version="1" Minor="0" IsDisabled="true">
+        <ReportConfig DisplayName="Timing Summary - Design Initialization" Name="impl_1_init_report_timing_summary_0" Spec="report_timing_summary" RunStep="init_design" ReportFile="top_timing_summary_init_1.rpt" Version="1" Minor="0" IsDisabled="true">
           <ReportConfigOption Name="max_paths" Type="" Value="10"/>
           <ReportConfigOption Name="report_unconstrained" Type="" Value="true"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value=""/>
@@ -1892,13 +1892,13 @@
           <ReportConfigOutputOption Name="pb" Type="string" Value="top_drc_opted.pb"/>
           <ReportConfigOutputOption Name="rpx" Type="string" Value="top_drc_opted.rpx"/>
         </ReportConfig>
-        <ReportConfig DisplayName="Timing Summary - Opt Design" Name="impl_1_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="opt_design" ReportFile="top_timing_summary_opted.rpt" Version="1" Minor="0" IsDisabled="true">
+        <ReportConfig DisplayName="Timing Summary - Opt Design" Name="impl_1_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="opt_design" ReportFile="top_timing_summary_opted_1.rpt" Version="1" Minor="0" IsDisabled="true">
           <ReportConfigOption Name="max_paths" Type="" Value="10"/>
           <ReportConfigOption Name="report_unconstrained" Type="" Value="true"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value=""/>
           <ReportConfigOutputOption Name="rpx" Type="string" Value=""/>
         </ReportConfig>
-        <ReportConfig DisplayName="Timing Summary - Power Opt Design" Name="impl_1_power_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="power_opt_design" ReportFile="top_timing_summary_pwropted.rpt" Version="1" Minor="0" IsDisabled="true">
+        <ReportConfig DisplayName="Timing Summary - Power Opt Design" Name="impl_1_power_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="power_opt_design" ReportFile="top_timing_summary_pwropted_1.rpt" Version="1" Minor="0" IsDisabled="true">
           <ReportConfigOption Name="max_paths" Type="" Value="10"/>
           <ReportConfigOption Name="report_unconstrained" Type="" Value="true"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value=""/>
@@ -1914,13 +1914,13 @@
         <ReportConfig DisplayName="Control Sets - Place Design" Name="impl_1_place_report_control_sets_0" Spec="report_control_sets" RunStep="place_design" ReportFile="top_control_sets_placed.rpt" Version="1" Minor="0">
           <ReportConfigOption Name="verbose" Type="" Value="true"/>
         </ReportConfig>
-        <ReportConfig DisplayName="Incremental Reuse - Place Design" Name="impl_1_place_report_incremental_reuse_0" Spec="report_incremental_reuse" RunStep="place_design" ReportFile="top_incremental_reuse_pre_placed.rpt.rpt" Version="1" Minor="0" IsDisabled="true">
+        <ReportConfig DisplayName="Incremental Reuse - Place Design" Name="impl_1_place_report_incremental_reuse_0" Spec="report_incremental_reuse" RunStep="place_design" ReportFile="top_incremental_reuse_pre_placed.rpt_1.rpt" Version="1" Minor="0" IsDisabled="true">
           <ReportConfigOption Name="dummy_option" Type="string"/>
         </ReportConfig>
-        <ReportConfig DisplayName="Incremental Reuse - Place Design" Name="impl_1_place_report_incremental_reuse_1" Spec="report_incremental_reuse" RunStep="place_design" ReportFile="top_incremental_reuse_placed.rpt" Version="1" Minor="0" IsDisabled="true">
+        <ReportConfig DisplayName="Incremental Reuse - Place Design" Name="impl_1_place_report_incremental_reuse_1" Spec="report_incremental_reuse" RunStep="place_design" ReportFile="top_incremental_reuse_placed_1.rpt" Version="1" Minor="0" IsDisabled="true">
           <ReportConfigOption Name="dummy_option" Type="string"/>
         </ReportConfig>
-        <ReportConfig DisplayName="Timing Summary - Place Design" Name="impl_1_place_report_timing_summary_0" Spec="report_timing_summary" RunStep="place_design" ReportFile="top_timing_summary_placed.rpt" Version="1" Minor="0" IsDisabled="true">
+        <ReportConfig DisplayName="Timing Summary - Place Design" Name="impl_1_place_report_timing_summary_0" Spec="report_timing_summary" RunStep="place_design" ReportFile="top_timing_summary_placed_1.rpt" Version="1" Minor="0" IsDisabled="true">
           <ReportConfigOption Name="max_paths" Type="" Value="10"/>
           <ReportConfigOption Name="report_unconstrained" Type="" Value="true"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value=""/>
@@ -1930,13 +1930,13 @@
           <ReportConfigOption Name="dummy_option" Type="string"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value="top_utilization_placed_1.pb"/>
         </ReportConfig>
-        <ReportConfig DisplayName="Timing Summary - Post-Place Power Opt Design" Name="impl_1_post_place_power_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="post_place_power_opt_design" ReportFile="top_timing_summary_postplace_pwropted.rpt" Version="1" Minor="0" IsDisabled="true">
+        <ReportConfig DisplayName="Timing Summary - Post-Place Power Opt Design" Name="impl_1_post_place_power_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="post_place_power_opt_design" ReportFile="top_timing_summary_postplace_pwropted_1.rpt" Version="1" Minor="0" IsDisabled="true">
           <ReportConfigOption Name="max_paths" Type="" Value="10"/>
           <ReportConfigOption Name="report_unconstrained" Type="" Value="true"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value=""/>
           <ReportConfigOutputOption Name="rpx" Type="string" Value=""/>
         </ReportConfig>
-        <ReportConfig DisplayName="Timing Summary - Post-Place Phys Opt Design" Name="impl_1_phys_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="phys_opt_design" ReportFile="top_timing_summary_physopted.rpt" Version="1" Minor="0" IsDisabled="true">
+        <ReportConfig DisplayName="Timing Summary - Post-Place Phys Opt Design" Name="impl_1_phys_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="phys_opt_design" ReportFile="top_timing_summary_physopted_1.rpt" Version="1" Minor="0" IsDisabled="true">
           <ReportConfigOption Name="max_paths" Type="" Value="10"/>
           <ReportConfigOption Name="report_unconstrained" Type="" Value="true"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value=""/>
@@ -1967,7 +1967,7 @@
           <ReportConfigOutputOption Name="pb" Type="string" Value="top_timing_summary_routed.pb"/>
           <ReportConfigOutputOption Name="rpx" Type="string" Value="top_timing_summary_routed.rpx"/>
         </ReportConfig>
-        <ReportConfig DisplayName="Incremental Reuse - Route Design" Name="impl_1_route_report_incremental_reuse_0" Spec="report_incremental_reuse" RunStep="route_design" ReportFile="top_incremental_reuse_routed.rpt" Version="1" Minor="0">
+        <ReportConfig DisplayName="Incremental Reuse - Route Design" Name="impl_1_route_report_incremental_reuse_0" Spec="report_incremental_reuse" RunStep="route_design" ReportFile="top_incremental_reuse_routed_1.rpt" Version="1" Minor="0">
           <ReportConfigOption Name="dummy_option" Type="string"/>
         </ReportConfig>
         <ReportConfig DisplayName="Clock Utilization - Route Design" Name="impl_1_route_report_clock_utilization_0" Spec="report_clock_utilization" RunStep="route_design" ReportFile="top_clock_utilization_routed.rpt" Version="1" Minor="0">
@@ -2001,19 +2001,19 @@
           <ReportConfigOption Name="dummy_option" Type="string"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value="route_report_utilization_0.pb"/>
         </ReportConfig>
-        <ReportConfig DisplayName="Timing Summary - Post-Route Phys Opt Design" Name="impl_1_post_route_phys_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="post_route_phys_opt_design" ReportFile="top_timing_summary_postroute_physopted.rpt" Version="1" Minor="0">
+        <ReportConfig DisplayName="Timing Summary - Post-Route Phys Opt Design" Name="impl_1_post_route_phys_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="post_route_phys_opt_design" ReportFile="top_timing_summary_postroute_physopted_2.rpt" Version="1" Minor="0">
           <ReportConfigOption Name="max_paths" Type="" Value="10"/>
           <ReportConfigOption Name="report_unconstrained" Type="" Value="true"/>
           <ReportConfigOption Name="warn_on_violation" Type="" Value="true"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value=""/>
           <ReportConfigOutputOption Name="rpx" Type="string" Value=""/>
         </ReportConfig>
-        <ReportConfig DisplayName="Bus Skew - Post-Route Phys Opt Design" Name="impl_1_post_route_phys_opt_report_bus_skew_0" Spec="report_bus_skew" RunStep="post_route_phys_opt_design" ReportFile="top_bus_skew_postroute_physopted.rpt" Version="1" Minor="1">
+        <ReportConfig DisplayName="Bus Skew - Post-Route Phys Opt Design" Name="impl_1_post_route_phys_opt_report_bus_skew_0" Spec="report_bus_skew" RunStep="post_route_phys_opt_design" ReportFile="top_bus_skew_postroute_physopted_1.rpt" Version="1" Minor="1">
           <ReportConfigOption Name="warn_on_violation" Type="" Value="true"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value=""/>
           <ReportConfigOutputOption Name="rpx" Type="string" Value=""/>
         </ReportConfig>
-        <ReportConfig DisplayName="rev2a_xczu7ev_impl_1_post_route_phys_opt_report_timing_summary_0" Name="rev2a_xczu7ev_impl_1_post_route_phys_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="post_route_phys_opt_design" ReportFile="top_timing_summary_postroute_physopted_1.rpt" Version="1" Minor="0">
+        <ReportConfig DisplayName="rev2a_xczu7ev_impl_1_post_route_phys_opt_report_timing_summary_0" Name="rev2a_xczu7ev_impl_1_post_route_phys_opt_report_timing_summary_0" Spec="report_timing_summary" RunStep="post_route_phys_opt_design" ReportFile="top_timing_summary_postroute_physopted.rpt" Version="1" Minor="0">
           <ReportConfigOption Name="max_paths" Type="" Value="10"/>
           <ReportConfigOption Name="report_unconstrained" Type="" Value="true"/>
           <ReportConfigOption Name="warn_on_violation" Type="" Value="true"/>
