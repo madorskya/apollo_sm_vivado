@@ -2,10 +2,10 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
--- Date        : Sat Apr 20 17:05:26 2024
+-- Date        : Wed May  8 09:42:13 2024
 -- Host        : tesla.bu.edu running 64-bit AlmaLinux release 8.8 (Sapphire Caracal)
--- Command     : write_vhdl -force -mode synth_stub -rename_top zynq_bd_auto_pc_14 -prefix
---               zynq_bd_auto_pc_14_ zynq_bd_auto_pc_14_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub
+--               /home/madorsky/github/apollo/apollo_sm_vivado/rev2a_xczu7ev/zynq_bd/ip/zynq_bd_auto_pc_14/zynq_bd_auto_pc_14_stub.vhdl
 -- Design      : zynq_bd_auto_pc_14
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xczu7ev-fbvb900-2-i

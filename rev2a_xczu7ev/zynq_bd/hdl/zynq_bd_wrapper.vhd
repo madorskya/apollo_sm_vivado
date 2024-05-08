@@ -2,7 +2,7 @@
 --Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
---Date        : Sun Apr 28 12:42:02 2024
+--Date        : Wed May  8 09:25:07 2024
 --Host        : tesla.bu.edu running 64-bit AlmaLinux release 8.8 (Sapphire Caracal)
 --Command     : generate_target zynq_bd_wrapper.bd
 --Design      : zynq_bd_wrapper
@@ -400,6 +400,10 @@ entity zynq_bd_wrapper is
     SYS_RESET_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
     axi_clk : out STD_LOGIC;
     c2c_interconnect_reset : in STD_LOGIC;
+    dma_jtag_tck : out STD_LOGIC;
+    dma_jtag_tdi : out STD_LOGIC;
+    dma_jtag_tdo : in STD_LOGIC;
+    dma_jtag_tms : out STD_LOGIC;
     sys_resetter_c2c_bus_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
     sys_resetter_c2c_intcn_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
     sys_resetter_c2c_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -714,6 +718,10 @@ architecture STRUCTURE of zynq_bd_wrapper is
     CM2_PB_UART_txd : out STD_LOGIC;
     ESM_UART_rxd : in STD_LOGIC;
     ESM_UART_txd : out STD_LOGIC;
+    dma_jtag_tdi : out STD_LOGIC;
+    dma_jtag_tms : out STD_LOGIC;
+    dma_jtag_tck : out STD_LOGIC;
+    dma_jtag_tdo : in STD_LOGIC;
     axi_clk : out STD_LOGIC;
     sys_resetter_primary_bus_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
     sys_resetter_primary_intcn_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -1195,6 +1203,10 @@ zynq_bd_i: component zynq_bd
       SYS_RESET_rst_n(0) => SYS_RESET_rst_n(0),
       axi_clk => axi_clk,
       c2c_interconnect_reset => c2c_interconnect_reset,
+      dma_jtag_tck => dma_jtag_tck,
+      dma_jtag_tdi => dma_jtag_tdi,
+      dma_jtag_tdo => dma_jtag_tdo,
+      dma_jtag_tms => dma_jtag_tms,
       sys_resetter_c2c_bus_rst_n(0) => sys_resetter_c2c_bus_rst_n(0),
       sys_resetter_c2c_intcn_rst_n(0) => sys_resetter_c2c_intcn_rst_n(0),
       sys_resetter_c2c_rst_n(0) => sys_resetter_c2c_rst_n(0),

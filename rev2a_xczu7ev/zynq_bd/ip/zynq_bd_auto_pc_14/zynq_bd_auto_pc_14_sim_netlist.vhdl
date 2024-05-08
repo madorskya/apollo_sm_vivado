@@ -2,10 +2,10 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
--- Date        : Sat Apr 20 17:05:26 2024
+-- Date        : Wed May  8 09:42:13 2024
 -- Host        : tesla.bu.edu running 64-bit AlmaLinux release 8.8 (Sapphire Caracal)
--- Command     : write_vhdl -force -mode funcsim -rename_top zynq_bd_auto_pc_14 -prefix
---               zynq_bd_auto_pc_14_ zynq_bd_auto_pc_14_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               /home/madorsky/github/apollo/apollo_sm_vivado/rev2a_xczu7ev/zynq_bd/ip/zynq_bd_auto_pc_14/zynq_bd_auto_pc_14_sim_netlist.vhdl
 -- Design      : zynq_bd_auto_pc_14
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -144,6 +144,8 @@ entity zynq_bd_auto_pc_14_axi_protocol_converter_v2_1_29_axi_protocol_converter 
   attribute C_TRANSLATION_MODE of zynq_bd_auto_pc_14_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is 2;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of zynq_bd_auto_pc_14_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is "yes";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_14_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is "axi_protocol_converter_v2_1_29_axi_protocol_converter";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of zynq_bd_auto_pc_14_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is 1;
   attribute P_AXI4 : integer;

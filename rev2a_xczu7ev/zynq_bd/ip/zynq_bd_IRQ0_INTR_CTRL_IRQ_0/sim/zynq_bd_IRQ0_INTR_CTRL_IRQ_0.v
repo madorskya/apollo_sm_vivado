@@ -64,6 +64,8 @@ module zynq_bd_IRQ0_INTR_CTRL_IRQ_0 (
   In7,
   In8,
   In9,
+  In10,
+  In11,
   dout
 );
 
@@ -77,7 +79,9 @@ input wire [0 : 0] In6;
 input wire [0 : 0] In7;
 input wire [0 : 0] In8;
 input wire [0 : 0] In9;
-output wire [21 : 0] dout;
+input wire [0 : 0] In10;
+input wire [0 : 0] In11;
+output wire [23 : 0] dout;
 
   xlconcat_v2_1_5_xlconcat #(
     .IN0_WIDTH(4),
@@ -208,8 +212,8 @@ output wire [21 : 0] dout;
     .IN125_WIDTH(1),
     .IN126_WIDTH(1),
     .IN127_WIDTH(1),
-    .dout_width(22),
-    .NUM_PORTS(10)
+    .dout_width(24),
+    .NUM_PORTS(12)
   ) inst (
     .In0(In0),
     .In1(In1),
@@ -221,8 +225,8 @@ output wire [21 : 0] dout;
     .In7(In7),
     .In8(In8),
     .In9(In9),
-    .In10(1'B0),
-    .In11(1'B0),
+    .In10(In10),
+    .In11(In11),
     .In12(1'B0),
     .In13(1'B0),
     .In14(1'B0),

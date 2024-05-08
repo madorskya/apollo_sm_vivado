@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
-// Date        : Sat Apr 20 17:07:41 2024
+// Date        : Wed May  8 09:30:37 2024
 // Host        : tesla.bu.edu running 64-bit AlmaLinux release 8.8 (Sapphire Caracal)
 // Command     : write_verilog -force -mode funcsim -rename_top zynq_bd_sys_resetter_primary_0 -prefix
 //               zynq_bd_sys_resetter_primary_0_ zynq_bd_SYS_RESET_0_sim_netlist.v

@@ -135,6 +135,46 @@ ENTITY zynq_bd_ZynqMPSoC_0 IS
     maxigp1_rready : OUT STD_LOGIC;
     maxigp1_awqos : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
     maxigp1_arqos : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    saxihp1_fpd_aclk : IN STD_LOGIC;
+    saxigp3_aruser : IN STD_LOGIC;
+    saxigp3_awuser : IN STD_LOGIC;
+    saxigp3_awid : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+    saxigp3_awaddr : IN STD_LOGIC_VECTOR(48 DOWNTO 0);
+    saxigp3_awlen : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+    saxigp3_awsize : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+    saxigp3_awburst : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    saxigp3_awlock : IN STD_LOGIC;
+    saxigp3_awcache : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    saxigp3_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+    saxigp3_awvalid : IN STD_LOGIC;
+    saxigp3_awready : OUT STD_LOGIC;
+    saxigp3_wdata : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
+    saxigp3_wstrb : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+    saxigp3_wlast : IN STD_LOGIC;
+    saxigp3_wvalid : IN STD_LOGIC;
+    saxigp3_wready : OUT STD_LOGIC;
+    saxigp3_bid : OUT STD_LOGIC_VECTOR(5 DOWNTO 0);
+    saxigp3_bresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    saxigp3_bvalid : OUT STD_LOGIC;
+    saxigp3_bready : IN STD_LOGIC;
+    saxigp3_arid : IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+    saxigp3_araddr : IN STD_LOGIC_VECTOR(48 DOWNTO 0);
+    saxigp3_arlen : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+    saxigp3_arsize : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+    saxigp3_arburst : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    saxigp3_arlock : IN STD_LOGIC;
+    saxigp3_arcache : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    saxigp3_arprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+    saxigp3_arvalid : IN STD_LOGIC;
+    saxigp3_arready : OUT STD_LOGIC;
+    saxigp3_rid : OUT STD_LOGIC_VECTOR(5 DOWNTO 0);
+    saxigp3_rdata : OUT STD_LOGIC_VECTOR(127 DOWNTO 0);
+    saxigp3_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    saxigp3_rlast : OUT STD_LOGIC;
+    saxigp3_rvalid : OUT STD_LOGIC;
+    saxigp3_rready : IN STD_LOGIC;
+    saxigp3_awqos : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    saxigp3_arqos : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     emio_enet0_enet_tsu_timer_cnt : OUT STD_LOGIC_VECTOR(93 DOWNTO 0);
     pl_ps_irq0 : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
     pl_resetn0 : OUT STD_LOGIC;
@@ -1780,6 +1820,49 @@ ARCHITECTURE zynq_bd_ZynqMPSoC_0_arch OF zynq_bd_ZynqMPSoC_0 IS
   ATTRIBUTE X_INTERFACE_INFO OF pl_ps_irq0: SIGNAL IS "xilinx.com:signal:interrupt:1.0 PL_PS_IRQ0 INTERRUPT";
   ATTRIBUTE X_INTERFACE_PARAMETER OF pl_resetn0: SIGNAL IS "XIL_INTERFACENAME PL_RESETN0, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF pl_resetn0: SIGNAL IS "xilinx.com:signal:reset:1.0 PL_RESETN0 RST";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_araddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARADDR";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_arburst: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARBURST";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_arcache: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARCACHE";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_arid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARID";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_arlen: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARLEN";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_arlock: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARLOCK";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_arprot: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARPROT";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_arqos: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARQOS";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_arready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_arsize: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARSIZE";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF saxigp3_aruser: SIGNAL IS "XIL_INTERFACENAME S_AXI_HP1_FPD, NUM_WRITE_OUTSTANDING 16, NUM_READ_OUTSTANDING 16, DATA_WIDTH 128, PROTOCOL AXI4, FREQ_HZ 49999500, ID_WIDTH 6, ADDR_WIDTH 49, AWUSER_WIDTH 1, ARUSER_WIDTH 1, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, MAX_BURST_LENGTH 64, PHASE 0.0, CLK_DOMAIN zynq_bd_ZynqMPSoC_0_pl_clk1, NUM_READ_THREADS 1, NUM_" & 
+"WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_aruser: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARUSER";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_arvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD ARVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awaddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWADDR";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awburst: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWBURST";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awcache: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWCACHE";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWID";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awlen: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWLEN";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awlock: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWLOCK";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awprot: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWPROT";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awqos: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWQOS";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awsize: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWSIZE";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awuser: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWUSER";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_awvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD AWVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_bid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD BID";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_bready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD BREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_bresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD BRESP";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_bvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD BVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_rdata: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD RDATA";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_rid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD RID";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_rlast: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD RLAST";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_rready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD RREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_rresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD RRESP";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_rvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD RVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_wdata: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD WDATA";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_wlast: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD WLAST";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_wready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD WREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_wstrb: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD WSTRB";
+  ATTRIBUTE X_INTERFACE_INFO OF saxigp3_wvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 S_AXI_HP1_FPD WVALID";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF saxihp1_fpd_aclk: SIGNAL IS "XIL_INTERFACENAME S_AXI_HP1_FPD_ACLK, ASSOCIATED_BUSIF S_AXI_HP1_FPD, FREQ_HZ 49999500, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN zynq_bd_ZynqMPSoC_0_pl_clk1, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF saxihp1_fpd_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 S_AXI_HP1_FPD_ACLK CLK";
 BEGIN
   U0 : zynq_ultra_ps_e_v3_5_1_zynq_ultra_ps_e
     GENERIC MAP (
@@ -2012,35 +2095,46 @@ BEGIN
       saxigp2_arqos => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
       saxihp1_fpd_rclk => '0',
       saxihp1_fpd_wclk => '0',
-      saxihp1_fpd_aclk => '0',
-      saxigp3_aruser => '0',
-      saxigp3_awuser => '0',
-      saxigp3_awid => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 6)),
-      saxigp3_awaddr => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 49)),
-      saxigp3_awlen => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 8)),
-      saxigp3_awsize => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 3)),
-      saxigp3_awburst => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 2)),
-      saxigp3_awlock => '0',
-      saxigp3_awcache => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
-      saxigp3_awprot => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 3)),
-      saxigp3_awvalid => '0',
-      saxigp3_wdata => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 128)),
-      saxigp3_wstrb => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 16)),
-      saxigp3_wlast => '0',
-      saxigp3_wvalid => '0',
-      saxigp3_bready => '0',
-      saxigp3_arid => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 6)),
-      saxigp3_araddr => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 49)),
-      saxigp3_arlen => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 8)),
-      saxigp3_arsize => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 3)),
-      saxigp3_arburst => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 2)),
-      saxigp3_arlock => '0',
-      saxigp3_arcache => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
-      saxigp3_arprot => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 3)),
-      saxigp3_arvalid => '0',
-      saxigp3_rready => '0',
-      saxigp3_awqos => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
-      saxigp3_arqos => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
+      saxihp1_fpd_aclk => saxihp1_fpd_aclk,
+      saxigp3_aruser => saxigp3_aruser,
+      saxigp3_awuser => saxigp3_awuser,
+      saxigp3_awid => saxigp3_awid,
+      saxigp3_awaddr => saxigp3_awaddr,
+      saxigp3_awlen => saxigp3_awlen,
+      saxigp3_awsize => saxigp3_awsize,
+      saxigp3_awburst => saxigp3_awburst,
+      saxigp3_awlock => saxigp3_awlock,
+      saxigp3_awcache => saxigp3_awcache,
+      saxigp3_awprot => saxigp3_awprot,
+      saxigp3_awvalid => saxigp3_awvalid,
+      saxigp3_awready => saxigp3_awready,
+      saxigp3_wdata => saxigp3_wdata,
+      saxigp3_wstrb => saxigp3_wstrb,
+      saxigp3_wlast => saxigp3_wlast,
+      saxigp3_wvalid => saxigp3_wvalid,
+      saxigp3_wready => saxigp3_wready,
+      saxigp3_bid => saxigp3_bid,
+      saxigp3_bresp => saxigp3_bresp,
+      saxigp3_bvalid => saxigp3_bvalid,
+      saxigp3_bready => saxigp3_bready,
+      saxigp3_arid => saxigp3_arid,
+      saxigp3_araddr => saxigp3_araddr,
+      saxigp3_arlen => saxigp3_arlen,
+      saxigp3_arsize => saxigp3_arsize,
+      saxigp3_arburst => saxigp3_arburst,
+      saxigp3_arlock => saxigp3_arlock,
+      saxigp3_arcache => saxigp3_arcache,
+      saxigp3_arprot => saxigp3_arprot,
+      saxigp3_arvalid => saxigp3_arvalid,
+      saxigp3_arready => saxigp3_arready,
+      saxigp3_rid => saxigp3_rid,
+      saxigp3_rdata => saxigp3_rdata,
+      saxigp3_rresp => saxigp3_rresp,
+      saxigp3_rlast => saxigp3_rlast,
+      saxigp3_rvalid => saxigp3_rvalid,
+      saxigp3_rready => saxigp3_rready,
+      saxigp3_awqos => saxigp3_awqos,
+      saxigp3_arqos => saxigp3_arqos,
       saxihp2_fpd_rclk => '0',
       saxihp2_fpd_wclk => '0',
       saxihp2_fpd_aclk => '0',

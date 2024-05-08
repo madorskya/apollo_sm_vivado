@@ -68,7 +68,7 @@ typedef bit bit_as_bool;
 module zynq_bd_auto_pc_20 (
   input bit_as_bool aclk,
   input bit_as_bool aresetn,
-  input bit [31 : 0] s_axi_awaddr,
+  input bit [39 : 0] s_axi_awaddr,
   input bit [7 : 0] s_axi_awlen,
   input bit [2 : 0] s_axi_awsize,
   input bit [1 : 0] s_axi_awburst,
@@ -87,7 +87,7 @@ module zynq_bd_auto_pc_20 (
   output bit [1 : 0] s_axi_bresp,
   output bit_as_bool s_axi_bvalid,
   input bit_as_bool s_axi_bready,
-  input bit [31 : 0] s_axi_araddr,
+  input bit [39 : 0] s_axi_araddr,
   input bit [7 : 0] s_axi_arlen,
   input bit [2 : 0] s_axi_arsize,
   input bit [1 : 0] s_axi_arburst,
@@ -103,7 +103,7 @@ module zynq_bd_auto_pc_20 (
   output bit_as_bool s_axi_rlast,
   output bit_as_bool s_axi_rvalid,
   input bit_as_bool s_axi_rready,
-  output bit [31 : 0] m_axi_awaddr,
+  output bit [39 : 0] m_axi_awaddr,
   output bit [2 : 0] m_axi_awprot,
   output bit_as_bool m_axi_awvalid,
   input bit_as_bool m_axi_awready,
@@ -114,7 +114,7 @@ module zynq_bd_auto_pc_20 (
   input bit [1 : 0] m_axi_bresp,
   input bit_as_bool m_axi_bvalid,
   output bit_as_bool m_axi_bready,
-  output bit [31 : 0] m_axi_araddr,
+  output bit [39 : 0] m_axi_araddr,
   output bit [2 : 0] m_axi_arprot,
   output bit_as_bool m_axi_arvalid,
   input bit_as_bool m_axi_arready,
@@ -133,7 +133,7 @@ module zynq_bd_auto_pc_20 (aclk,aresetn,s_axi_awaddr,s_axi_awlen,s_axi_awsize,s_
 *);
   input bit aclk;
   input bit aresetn;
-  input bit [31 : 0] s_axi_awaddr;
+  input bit [39 : 0] s_axi_awaddr;
   input bit [7 : 0] s_axi_awlen;
   input bit [2 : 0] s_axi_awsize;
   input bit [1 : 0] s_axi_awburst;
@@ -152,7 +152,7 @@ module zynq_bd_auto_pc_20 (aclk,aresetn,s_axi_awaddr,s_axi_awlen,s_axi_awsize,s_
   output wire [1 : 0] s_axi_bresp;
   output wire s_axi_bvalid;
   input bit s_axi_bready;
-  input bit [31 : 0] s_axi_araddr;
+  input bit [39 : 0] s_axi_araddr;
   input bit [7 : 0] s_axi_arlen;
   input bit [2 : 0] s_axi_arsize;
   input bit [1 : 0] s_axi_arburst;
@@ -168,7 +168,7 @@ module zynq_bd_auto_pc_20 (aclk,aresetn,s_axi_awaddr,s_axi_awlen,s_axi_awsize,s_
   output wire s_axi_rlast;
   output wire s_axi_rvalid;
   input bit s_axi_rready;
-  output wire [31 : 0] m_axi_awaddr;
+  output wire [39 : 0] m_axi_awaddr;
   output wire [2 : 0] m_axi_awprot;
   output wire m_axi_awvalid;
   input bit m_axi_awready;
@@ -179,7 +179,7 @@ module zynq_bd_auto_pc_20 (aclk,aresetn,s_axi_awaddr,s_axi_awlen,s_axi_awsize,s_
   input bit [1 : 0] m_axi_bresp;
   input bit m_axi_bvalid;
   output wire m_axi_bready;
-  output wire [31 : 0] m_axi_araddr;
+  output wire [39 : 0] m_axi_araddr;
   output wire [2 : 0] m_axi_arprot;
   output wire m_axi_arvalid;
   input bit m_axi_arready;

@@ -2,11 +2,11 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
-// Date        : Sat Apr 20 17:03:18 2024
+// Date        : Wed May  8 09:42:43 2024
 // Host        : tesla.bu.edu running 64-bit AlmaLinux release 8.8 (Sapphire Caracal)
 // Command     : write_verilog -force -mode synth_stub -rename_top zynq_bd_auto_pc_19 -prefix
-//               zynq_bd_auto_pc_19_ zynq_bd_auto_pc_19_stub.v
-// Design      : zynq_bd_auto_pc_19
+//               zynq_bd_auto_pc_19_ zynq_bd_auto_pc_1_stub.v
+// Design      : zynq_bd_auto_pc_1
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xczu7ev-fbvb900-2-i
 // --------------------------------------------------------------------------------

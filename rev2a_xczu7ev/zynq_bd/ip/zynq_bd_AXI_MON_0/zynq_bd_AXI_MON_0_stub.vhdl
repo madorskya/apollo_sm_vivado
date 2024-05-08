@@ -2,10 +2,10 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
--- Date        : Sat Apr 20 17:13:13 2024
+-- Date        : Wed May  8 09:38:25 2024
 -- Host        : tesla.bu.edu running 64-bit AlmaLinux release 8.8 (Sapphire Caracal)
 -- Command     : write_vhdl -force -mode synth_stub
---               /home/madorsky/github/apollo/SM_ZYNQ_FW/Projects/rev2a_xczu7ev/zynq_bd/ip/zynq_bd_AXI_MON_0/zynq_bd_AXI_MON_0_stub.vhdl
+--               /home/madorsky/github/apollo/apollo_sm_vivado/rev2a_xczu7ev/zynq_bd/ip/zynq_bd_AXI_MON_0/zynq_bd_AXI_MON_0_stub.vhdl
 -- Design      : zynq_bd_AXI_MON_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xczu7ev-fbvb900-2-i

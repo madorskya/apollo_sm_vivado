@@ -107,6 +107,8 @@ zynq_bd_ZynqMPSoC_0_sc::zynq_bd_ZynqMPSoC_0_sc(const sc_core::sc_module_name& nm
   M_AXI_HPM0_FPD_wr_socket = mp_impl->M_AXI_HPM0_FPD_wr_socket;
   M_AXI_HPM1_FPD_rd_socket = mp_impl->M_AXI_HPM1_FPD_rd_socket;
   M_AXI_HPM1_FPD_wr_socket = mp_impl->M_AXI_HPM1_FPD_wr_socket;
+  S_AXI_HP1_FPD_rd_socket = mp_impl->S_AXI_HP1_FPD_rd_socket;
+  S_AXI_HP1_FPD_wr_socket = mp_impl->S_AXI_HP1_FPD_wr_socket;
 }
 
 zynq_bd_ZynqMPSoC_0_sc::~zynq_bd_ZynqMPSoC_0_sc()

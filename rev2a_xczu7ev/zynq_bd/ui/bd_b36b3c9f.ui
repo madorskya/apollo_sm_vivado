@@ -1,348 +1,355 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"1.39728",
-   "Default View_TopLeft":"80,2189",
+   "Default View_ScaleFactor":"0.988026",
+   "Default View_TopLeft":"1630,2163",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
 #  -string -flagsOSRD
-preplace port AXIM_PL -pg 1 -lvl 0 -x -30 -y 3040 -defaultsOSRD
-preplace port C2C1_PHY_DRP -pg 1 -lvl 0 -x -30 -y 190 -defaultsOSRD
-preplace port C2C1_PHY_Rx -pg 1 -lvl 0 -x -30 -y 250 -defaultsOSRD
-preplace port C2C1_PHY_Tx -pg 1 -lvl 9 -x 3970 -y 260 -defaultsOSRD
-preplace port C2C1_PHY_DEBUG -pg 1 -lvl 9 -x 3970 -y 100 -defaultsOSRD
-preplace port C2C1B_PHY_DRP -pg 1 -lvl 0 -x -30 -y 1390 -defaultsOSRD
-preplace port C2C1B_PHY_Rx -pg 1 -lvl 0 -x -30 -y 1450 -defaultsOSRD
-preplace port C2C1B_PHY_Tx -pg 1 -lvl 9 -x 3970 -y 1460 -defaultsOSRD
-preplace port C2C1B_PHY_DEBUG -pg 1 -lvl 9 -x 3970 -y 1300 -defaultsOSRD
-preplace port C2C2_PHY_DRP -pg 1 -lvl 0 -x -30 -y 4120 -defaultsOSRD
-preplace port C2C2_PHY_Rx -pg 1 -lvl 0 -x -30 -y 4180 -defaultsOSRD
-preplace port C2C2_PHY_Tx -pg 1 -lvl 9 -x 3970 -y 4190 -defaultsOSRD
-preplace port C2C2_PHY_DEBUG -pg 1 -lvl 9 -x 3970 -y 4030 -defaultsOSRD
-preplace port C2C2B_PHY_DRP -pg 1 -lvl 0 -x -30 -y 3430 -defaultsOSRD
-preplace port C2C2B_PHY_Rx -pg 1 -lvl 0 -x -30 -y 3450 -defaultsOSRD
-preplace port C2C2B_PHY_Tx -pg 1 -lvl 9 -x 3970 -y 3070 -defaultsOSRD
-preplace port C2C2B_PHY_DEBUG -pg 1 -lvl 9 -x 3970 -y 2910 -defaultsOSRD
-preplace port PL_MEM_RAM_PORTB -pg 1 -lvl 0 -x -30 -y 1000 -defaultsOSRD
-preplace port PL_MEM_CM_RAM_PORTB -pg 1 -lvl 0 -x -30 -y 830 -defaultsOSRD
-preplace port SERV -pg 1 -lvl 9 -x 3970 -y 1040 -defaultsOSRD
-preplace port SLAVE_I2C -pg 1 -lvl 9 -x 3970 -y 1060 -defaultsOSRD
-preplace port SM_INFO -pg 1 -lvl 9 -x 3970 -y 1080 -defaultsOSRD
-preplace port PLXVC -pg 1 -lvl 9 -x 3970 -y 2170 -defaultsOSRD
-preplace port CM -pg 1 -lvl 9 -x 3970 -y 2190 -defaultsOSRD
-preplace port CM1_UART -pg 1 -lvl 9 -x 3970 -y 2400 -defaultsOSRD
-preplace port CM2_UART -pg 1 -lvl 9 -x 3970 -y 2680 -defaultsOSRD
-preplace port CM1_PB_UART -pg 1 -lvl 9 -x 3970 -y 2260 -defaultsOSRD
-preplace port CM2_PB_UART -pg 1 -lvl 9 -x 3970 -y 2540 -defaultsOSRD
-preplace port ESM_UART -pg 1 -lvl 9 -x 3970 -y 3450 -defaultsOSRD
-preplace port port-id_axi_clk -pg 1 -lvl 9 -x 3970 -y 4430 -defaultsOSRD
-preplace port port-id_c2c_interconnect_reset -pg 1 -lvl 0 -x -30 -y 3560 -defaultsOSRD
-preplace port port-id_INIT_CLK -pg 1 -lvl 0 -x -30 -y 3930 -defaultsOSRD
-preplace port port-id_C2C1_aurora_pma_init_in -pg 1 -lvl 0 -x -30 -y 550 -defaultsOSRD
-preplace port port-id_C2C1_aurora_reset_pb -pg 1 -lvl 9 -x 3970 -y 500 -defaultsOSRD
-preplace port port-id_C2C1_aurora_do_cc -pg 1 -lvl 9 -x 3970 -y 480 -defaultsOSRD
-preplace port port-id_C2C1_axi_c2c_config_error_out -pg 1 -lvl 9 -x 3970 -y 520 -defaultsOSRD
-preplace port port-id_C2C1_axi_c2c_link_status_out -pg 1 -lvl 9 -x 3970 -y 540 -defaultsOSRD
-preplace port port-id_C2C1_axi_c2c_multi_bit_error_out -pg 1 -lvl 9 -x 3970 -y 560 -defaultsOSRD
-preplace port port-id_C2C1_axi_c2c_link_error_out -pg 1 -lvl 9 -x 3970 -y 580 -defaultsOSRD
-preplace port port-id_C2C1_PHY_refclk -pg 1 -lvl 0 -x -30 -y 270 -defaultsOSRD
-preplace port port-id_C2C1_PHY_power_down -pg 1 -lvl 0 -x -30 -y 230 -defaultsOSRD
-preplace port port-id_C2C1_PHY_gt_pll_lock -pg 1 -lvl 9 -x 3970 -y 160 -defaultsOSRD
-preplace port port-id_C2C1_PHY_hard_err -pg 1 -lvl 9 -x 3970 -y 180 -defaultsOSRD
-preplace port port-id_C2C1_PHY_soft_err -pg 1 -lvl 9 -x 3970 -y 240 -defaultsOSRD
-preplace port port-id_C2C1_PHY_mmcm_not_locked_out -pg 1 -lvl 9 -x 3970 -y 220 -defaultsOSRD
-preplace port port-id_C2C1_PHY_link_reset_out -pg 1 -lvl 9 -x 3970 -y 300 -defaultsOSRD
-preplace port port-id_C2C1_PHY_channel_up -pg 1 -lvl 9 -x 3970 -y 120 -defaultsOSRD
-preplace port port-id_C2C1_PHY_CLK -pg 1 -lvl 9 -x 3970 -y 320 -defaultsOSRD
-preplace port port-id_C2C1B_aurora_pma_init_in -pg 1 -lvl 0 -x -30 -y 1780 -defaultsOSRD
-preplace port port-id_C2C1B_aurora_reset_pb -pg 1 -lvl 9 -x 3970 -y 1980 -defaultsOSRD
-preplace port port-id_C2C1B_aurora_do_cc -pg 1 -lvl 9 -x 3970 -y 1960 -defaultsOSRD
-preplace port port-id_C2C1B_axi_c2c_config_error_out -pg 1 -lvl 9 -x 3970 -y 2020 -defaultsOSRD
-preplace port port-id_C2C1B_axi_c2c_link_status_out -pg 1 -lvl 9 -x 3970 -y 2040 -defaultsOSRD
-preplace port port-id_C2C1B_axi_c2c_multi_bit_error_out -pg 1 -lvl 9 -x 3970 -y 2060 -defaultsOSRD
-preplace port port-id_C2C1B_axi_c2c_link_error_out -pg 1 -lvl 9 -x 3970 -y 2080 -defaultsOSRD
-preplace port port-id_C2C1B_PHY_refclk -pg 1 -lvl 0 -x -30 -y 1470 -defaultsOSRD
-preplace port port-id_C2C1B_PHY_power_down -pg 1 -lvl 0 -x -30 -y 1430 -defaultsOSRD
-preplace port port-id_C2C1B_PHY_gt_pll_lock -pg 1 -lvl 9 -x 3970 -y 1360 -defaultsOSRD
-preplace port port-id_C2C1B_PHY_hard_err -pg 1 -lvl 9 -x 3970 -y 1380 -defaultsOSRD
-preplace port port-id_C2C1B_PHY_soft_err -pg 1 -lvl 9 -x 3970 -y 1440 -defaultsOSRD
-preplace port port-id_C2C1B_PHY_mmcm_not_locked_out -pg 1 -lvl 9 -x 3970 -y 1420 -defaultsOSRD
-preplace port port-id_C2C1B_PHY_link_reset_out -pg 1 -lvl 9 -x 3970 -y 1500 -defaultsOSRD
-preplace port port-id_C2C1B_PHY_channel_up -pg 1 -lvl 9 -x 3970 -y 1340 -defaultsOSRD
-preplace port port-id_C2C1B_PHY_CLK -pg 1 -lvl 9 -x 3970 -y 1520 -defaultsOSRD
-preplace port port-id_C2C2_aurora_pma_init_in -pg 1 -lvl 0 -x -30 -y 3910 -defaultsOSRD
-preplace port port-id_C2C2_aurora_reset_pb -pg 1 -lvl 9 -x 3970 -y 3860 -defaultsOSRD
-preplace port port-id_C2C2_aurora_do_cc -pg 1 -lvl 9 -x 3970 -y 3820 -defaultsOSRD
-preplace port port-id_C2C2_axi_c2c_config_error_out -pg 1 -lvl 9 -x 3970 -y 3880 -defaultsOSRD
-preplace port port-id_C2C2_axi_c2c_link_status_out -pg 1 -lvl 9 -x 3970 -y 3900 -defaultsOSRD
-preplace port port-id_C2C2_axi_c2c_multi_bit_error_out -pg 1 -lvl 9 -x 3970 -y 3920 -defaultsOSRD
-preplace port port-id_C2C2_axi_c2c_link_error_out -pg 1 -lvl 9 -x 3970 -y 3940 -defaultsOSRD
-preplace port port-id_C2C2_PHY_refclk -pg 1 -lvl 0 -x -30 -y 4200 -defaultsOSRD
-preplace port port-id_C2C2_PHY_power_down -pg 1 -lvl 0 -x -30 -y 4160 -defaultsOSRD
-preplace port port-id_C2C2_PHY_gt_pll_lock -pg 1 -lvl 9 -x 3970 -y 4090 -defaultsOSRD
-preplace port port-id_C2C2_PHY_hard_err -pg 1 -lvl 9 -x 3970 -y 4110 -defaultsOSRD
-preplace port port-id_C2C2_PHY_soft_err -pg 1 -lvl 9 -x 3970 -y 4170 -defaultsOSRD
-preplace port port-id_C2C2_PHY_mmcm_not_locked_out -pg 1 -lvl 9 -x 3970 -y 4150 -defaultsOSRD
-preplace port port-id_C2C2_PHY_link_reset_out -pg 1 -lvl 9 -x 3970 -y 4230 -defaultsOSRD
-preplace port port-id_C2C2_PHY_channel_up -pg 1 -lvl 9 -x 3970 -y 4050 -defaultsOSRD
-preplace port port-id_C2C2_PHY_CLK -pg 1 -lvl 9 -x 3970 -y 4250 -defaultsOSRD
-preplace port port-id_C2C2B_aurora_pma_init_in -pg 1 -lvl 0 -x -30 -y 3470 -defaultsOSRD
-preplace port port-id_C2C2B_aurora_reset_pb -pg 1 -lvl 9 -x 3970 -y 3300 -defaultsOSRD
-preplace port port-id_C2C2B_aurora_do_cc -pg 1 -lvl 9 -x 3970 -y 3280 -defaultsOSRD
-preplace port port-id_C2C2B_axi_c2c_config_error_out -pg 1 -lvl 9 -x 3970 -y 3320 -defaultsOSRD
-preplace port port-id_C2C2B_axi_c2c_link_status_out -pg 1 -lvl 9 -x 3970 -y 3340 -defaultsOSRD
-preplace port port-id_C2C2B_axi_c2c_multi_bit_error_out -pg 1 -lvl 9 -x 3970 -y 3360 -defaultsOSRD
-preplace port port-id_C2C2B_axi_c2c_link_error_out -pg 1 -lvl 9 -x 3970 -y 3380 -defaultsOSRD
-preplace port port-id_C2C2B_PHY_refclk -pg 1 -lvl 0 -x -30 -y 3660 -defaultsOSRD
-preplace port port-id_C2C2B_PHY_power_down -pg 1 -lvl 0 -x -30 -y 3490 -defaultsOSRD
-preplace port port-id_C2C2B_PHY_gt_pll_lock -pg 1 -lvl 9 -x 3970 -y 2970 -defaultsOSRD
-preplace port port-id_C2C2B_PHY_hard_err -pg 1 -lvl 9 -x 3970 -y 2990 -defaultsOSRD
-preplace port port-id_C2C2B_PHY_soft_err -pg 1 -lvl 9 -x 3970 -y 3050 -defaultsOSRD
-preplace port port-id_C2C2B_PHY_mmcm_not_locked_out -pg 1 -lvl 9 -x 3970 -y 3030 -defaultsOSRD
-preplace port port-id_C2C2B_PHY_link_reset_out -pg 1 -lvl 9 -x 3970 -y 3110 -defaultsOSRD
-preplace port port-id_C2C2B_PHY_channel_up -pg 1 -lvl 9 -x 3970 -y 2930 -defaultsOSRD
-preplace port port-id_C2C2B_PHY_CLK -pg 1 -lvl 9 -x 3970 -y 3130 -defaultsOSRD
-preplace port port-id_MONITOR_alarm -pg 1 -lvl 9 -x 3970 -y 4970 -defaultsOSRD
-preplace port port-id_MONITOR_vccint_alarm -pg 1 -lvl 9 -x 3970 -y 4810 -defaultsOSRD
-preplace port port-id_MONITOR_vccaux_alarm -pg 1 -lvl 9 -x 3970 -y 4890 -defaultsOSRD
-preplace port port-id_MONITOR_overtemp_alarm -pg 1 -lvl 9 -x 3970 -y 4910 -defaultsOSRD
-preplace port port-id_SI_scl_i -pg 1 -lvl 0 -x -30 -y 4430 -defaultsOSRD
-preplace port port-id_SI_sda_i -pg 1 -lvl 0 -x -30 -y 4730 -defaultsOSRD
-preplace port port-id_SI_sda_o -pg 1 -lvl 9 -x 3970 -y 4610 -defaultsOSRD
-preplace port port-id_SI_scl_o -pg 1 -lvl 9 -x 3970 -y 4550 -defaultsOSRD
-preplace port port-id_SI_scl_t -pg 1 -lvl 9 -x 3970 -y 4570 -defaultsOSRD
-preplace port port-id_SI_sda_t -pg 1 -lvl 9 -x 3970 -y 4630 -defaultsOSRD
-preplace portBus sys_resetter_primary_bus_rst_n -pg 1 -lvl 9 -x 3970 -y 3580 -defaultsOSRD
-preplace portBus sys_resetter_primary_intcn_rst_n -pg 1 -lvl 9 -x 3970 -y 3400 -defaultsOSRD
-preplace portBus sys_resetter_primary_rst_n -pg 1 -lvl 9 -x 3970 -y 4450 -defaultsOSRD
-preplace portBus sys_resetter_c2c_bus_rst_n -pg 1 -lvl 9 -x 3970 -y 3680 -defaultsOSRD
-preplace portBus sys_resetter_c2c_intcn_rst_n -pg 1 -lvl 9 -x 3970 -y 3740 -defaultsOSRD
-preplace portBus sys_resetter_c2c_rst_n -pg 1 -lvl 9 -x 3970 -y 3760 -defaultsOSRD
-preplace portBus SYS_RESET_bus_rst_n -pg 1 -lvl 9 -x 3970 -y 1720 -defaultsOSRD
-preplace portBus SYS_RESET_intcn_rst_n -pg 1 -lvl 9 -x 3970 -y 1780 -defaultsOSRD
-preplace portBus SYS_RESET_rst_n -pg 1 -lvl 9 -x 3970 -y 1800 -defaultsOSRD
-preplace portBus C2C1_PHY_lane_up -pg 1 -lvl 9 -x 3970 -y 200 -defaultsOSRD
-preplace portBus C2C1B_PHY_lane_up -pg 1 -lvl 9 -x 3970 -y 1400 -defaultsOSRD
-preplace portBus C2C2_PHY_lane_up -pg 1 -lvl 9 -x 3970 -y 4130 -defaultsOSRD
-preplace portBus C2C2B_PHY_lane_up -pg 1 -lvl 9 -x 3970 -y 3010 -defaultsOSRD
+preplace port AXIM_PL -pg 1 -lvl 0 -x -80 -y 3040 -defaultsOSRD
+preplace port C2C1_PHY_DRP -pg 1 -lvl 0 -x -80 -y 190 -defaultsOSRD
+preplace port C2C1_PHY_Rx -pg 1 -lvl 0 -x -80 -y 250 -defaultsOSRD
+preplace port C2C1_PHY_Tx -pg 1 -lvl 9 -x 4470 -y 260 -defaultsOSRD
+preplace port C2C1_PHY_DEBUG -pg 1 -lvl 9 -x 4470 -y 100 -defaultsOSRD
+preplace port C2C1B_PHY_DRP -pg 1 -lvl 0 -x -80 -y 1390 -defaultsOSRD
+preplace port C2C1B_PHY_Rx -pg 1 -lvl 0 -x -80 -y 1450 -defaultsOSRD
+preplace port C2C1B_PHY_Tx -pg 1 -lvl 9 -x 4470 -y 1460 -defaultsOSRD
+preplace port C2C1B_PHY_DEBUG -pg 1 -lvl 9 -x 4470 -y 1300 -defaultsOSRD
+preplace port C2C2_PHY_DRP -pg 1 -lvl 0 -x -80 -y 4120 -defaultsOSRD
+preplace port C2C2_PHY_Rx -pg 1 -lvl 0 -x -80 -y 4180 -defaultsOSRD
+preplace port C2C2_PHY_Tx -pg 1 -lvl 9 -x 4470 -y 4190 -defaultsOSRD
+preplace port C2C2_PHY_DEBUG -pg 1 -lvl 9 -x 4470 -y 4030 -defaultsOSRD
+preplace port C2C2B_PHY_DRP -pg 1 -lvl 0 -x -80 -y 3430 -defaultsOSRD
+preplace port C2C2B_PHY_Rx -pg 1 -lvl 0 -x -80 -y 3450 -defaultsOSRD
+preplace port C2C2B_PHY_Tx -pg 1 -lvl 9 -x 4470 -y 3070 -defaultsOSRD
+preplace port C2C2B_PHY_DEBUG -pg 1 -lvl 9 -x 4470 -y 2910 -defaultsOSRD
+preplace port PL_MEM_RAM_PORTB -pg 1 -lvl 0 -x -80 -y 1000 -defaultsOSRD
+preplace port PL_MEM_CM_RAM_PORTB -pg 1 -lvl 0 -x -80 -y 830 -defaultsOSRD
+preplace port SERV -pg 1 -lvl 9 -x 4470 -y 1040 -defaultsOSRD
+preplace port SLAVE_I2C -pg 1 -lvl 9 -x 4470 -y 1060 -defaultsOSRD
+preplace port SM_INFO -pg 1 -lvl 9 -x 4470 -y 1080 -defaultsOSRD
+preplace port PLXVC -pg 1 -lvl 9 -x 4470 -y 2170 -defaultsOSRD
+preplace port CM -pg 1 -lvl 9 -x 4470 -y 2190 -defaultsOSRD
+preplace port CM1_UART -pg 1 -lvl 9 -x 4470 -y 2400 -defaultsOSRD
+preplace port CM2_UART -pg 1 -lvl 9 -x 4470 -y 2680 -defaultsOSRD
+preplace port CM1_PB_UART -pg 1 -lvl 9 -x 4470 -y 2260 -defaultsOSRD
+preplace port CM2_PB_UART -pg 1 -lvl 9 -x 4470 -y 2540 -defaultsOSRD
+preplace port ESM_UART -pg 1 -lvl 9 -x 4470 -y 3450 -defaultsOSRD
+preplace port dma_jtag -pg 1 -lvl 9 -x 4470 -y 4560 -defaultsOSRD
+preplace port port-id_axi_clk -pg 1 -lvl 9 -x 4470 -y 4430 -defaultsOSRD
+preplace port port-id_c2c_interconnect_reset -pg 1 -lvl 0 -x -80 -y 3560 -defaultsOSRD
+preplace port port-id_INIT_CLK -pg 1 -lvl 0 -x -80 -y 3930 -defaultsOSRD
+preplace port port-id_C2C1_aurora_pma_init_in -pg 1 -lvl 0 -x -80 -y 550 -defaultsOSRD
+preplace port port-id_C2C1_aurora_reset_pb -pg 1 -lvl 9 -x 4470 -y 500 -defaultsOSRD
+preplace port port-id_C2C1_aurora_do_cc -pg 1 -lvl 9 -x 4470 -y 480 -defaultsOSRD
+preplace port port-id_C2C1_axi_c2c_config_error_out -pg 1 -lvl 9 -x 4470 -y 520 -defaultsOSRD
+preplace port port-id_C2C1_axi_c2c_link_status_out -pg 1 -lvl 9 -x 4470 -y 540 -defaultsOSRD
+preplace port port-id_C2C1_axi_c2c_multi_bit_error_out -pg 1 -lvl 9 -x 4470 -y 560 -defaultsOSRD
+preplace port port-id_C2C1_axi_c2c_link_error_out -pg 1 -lvl 9 -x 4470 -y 580 -defaultsOSRD
+preplace port port-id_C2C1_PHY_refclk -pg 1 -lvl 0 -x -80 -y 270 -defaultsOSRD
+preplace port port-id_C2C1_PHY_power_down -pg 1 -lvl 0 -x -80 -y 230 -defaultsOSRD
+preplace port port-id_C2C1_PHY_gt_pll_lock -pg 1 -lvl 9 -x 4470 -y 160 -defaultsOSRD
+preplace port port-id_C2C1_PHY_hard_err -pg 1 -lvl 9 -x 4470 -y 180 -defaultsOSRD
+preplace port port-id_C2C1_PHY_soft_err -pg 1 -lvl 9 -x 4470 -y 240 -defaultsOSRD
+preplace port port-id_C2C1_PHY_mmcm_not_locked_out -pg 1 -lvl 9 -x 4470 -y 220 -defaultsOSRD
+preplace port port-id_C2C1_PHY_link_reset_out -pg 1 -lvl 9 -x 4470 -y 300 -defaultsOSRD
+preplace port port-id_C2C1_PHY_channel_up -pg 1 -lvl 9 -x 4470 -y 120 -defaultsOSRD
+preplace port port-id_C2C1_PHY_CLK -pg 1 -lvl 9 -x 4470 -y 320 -defaultsOSRD
+preplace port port-id_C2C1B_aurora_pma_init_in -pg 1 -lvl 0 -x -80 -y 1780 -defaultsOSRD
+preplace port port-id_C2C1B_aurora_reset_pb -pg 1 -lvl 9 -x 4470 -y 1980 -defaultsOSRD
+preplace port port-id_C2C1B_aurora_do_cc -pg 1 -lvl 9 -x 4470 -y 1960 -defaultsOSRD
+preplace port port-id_C2C1B_axi_c2c_config_error_out -pg 1 -lvl 9 -x 4470 -y 2020 -defaultsOSRD
+preplace port port-id_C2C1B_axi_c2c_link_status_out -pg 1 -lvl 9 -x 4470 -y 2040 -defaultsOSRD
+preplace port port-id_C2C1B_axi_c2c_multi_bit_error_out -pg 1 -lvl 9 -x 4470 -y 2060 -defaultsOSRD
+preplace port port-id_C2C1B_axi_c2c_link_error_out -pg 1 -lvl 9 -x 4470 -y 2080 -defaultsOSRD
+preplace port port-id_C2C1B_PHY_refclk -pg 1 -lvl 0 -x -80 -y 1470 -defaultsOSRD
+preplace port port-id_C2C1B_PHY_power_down -pg 1 -lvl 0 -x -80 -y 1430 -defaultsOSRD
+preplace port port-id_C2C1B_PHY_gt_pll_lock -pg 1 -lvl 9 -x 4470 -y 1360 -defaultsOSRD
+preplace port port-id_C2C1B_PHY_hard_err -pg 1 -lvl 9 -x 4470 -y 1380 -defaultsOSRD
+preplace port port-id_C2C1B_PHY_soft_err -pg 1 -lvl 9 -x 4470 -y 1440 -defaultsOSRD
+preplace port port-id_C2C1B_PHY_mmcm_not_locked_out -pg 1 -lvl 9 -x 4470 -y 1420 -defaultsOSRD
+preplace port port-id_C2C1B_PHY_link_reset_out -pg 1 -lvl 9 -x 4470 -y 1500 -defaultsOSRD
+preplace port port-id_C2C1B_PHY_channel_up -pg 1 -lvl 9 -x 4470 -y 1340 -defaultsOSRD
+preplace port port-id_C2C1B_PHY_CLK -pg 1 -lvl 9 -x 4470 -y 1520 -defaultsOSRD
+preplace port port-id_C2C2_aurora_pma_init_in -pg 1 -lvl 0 -x -80 -y 3910 -defaultsOSRD
+preplace port port-id_C2C2_aurora_reset_pb -pg 1 -lvl 9 -x 4470 -y 3860 -defaultsOSRD
+preplace port port-id_C2C2_aurora_do_cc -pg 1 -lvl 9 -x 4470 -y 3820 -defaultsOSRD
+preplace port port-id_C2C2_axi_c2c_config_error_out -pg 1 -lvl 9 -x 4470 -y 3880 -defaultsOSRD
+preplace port port-id_C2C2_axi_c2c_link_status_out -pg 1 -lvl 9 -x 4470 -y 3900 -defaultsOSRD
+preplace port port-id_C2C2_axi_c2c_multi_bit_error_out -pg 1 -lvl 9 -x 4470 -y 3920 -defaultsOSRD
+preplace port port-id_C2C2_axi_c2c_link_error_out -pg 1 -lvl 9 -x 4470 -y 3940 -defaultsOSRD
+preplace port port-id_C2C2_PHY_refclk -pg 1 -lvl 0 -x -80 -y 4200 -defaultsOSRD
+preplace port port-id_C2C2_PHY_power_down -pg 1 -lvl 0 -x -80 -y 4160 -defaultsOSRD
+preplace port port-id_C2C2_PHY_gt_pll_lock -pg 1 -lvl 9 -x 4470 -y 4090 -defaultsOSRD
+preplace port port-id_C2C2_PHY_hard_err -pg 1 -lvl 9 -x 4470 -y 4110 -defaultsOSRD
+preplace port port-id_C2C2_PHY_soft_err -pg 1 -lvl 9 -x 4470 -y 4170 -defaultsOSRD
+preplace port port-id_C2C2_PHY_mmcm_not_locked_out -pg 1 -lvl 9 -x 4470 -y 4150 -defaultsOSRD
+preplace port port-id_C2C2_PHY_link_reset_out -pg 1 -lvl 9 -x 4470 -y 4230 -defaultsOSRD
+preplace port port-id_C2C2_PHY_channel_up -pg 1 -lvl 9 -x 4470 -y 4050 -defaultsOSRD
+preplace port port-id_C2C2_PHY_CLK -pg 1 -lvl 9 -x 4470 -y 4250 -defaultsOSRD
+preplace port port-id_C2C2B_aurora_pma_init_in -pg 1 -lvl 0 -x -80 -y 3470 -defaultsOSRD
+preplace port port-id_C2C2B_aurora_reset_pb -pg 1 -lvl 9 -x 4470 -y 3300 -defaultsOSRD
+preplace port port-id_C2C2B_aurora_do_cc -pg 1 -lvl 9 -x 4470 -y 3280 -defaultsOSRD
+preplace port port-id_C2C2B_axi_c2c_config_error_out -pg 1 -lvl 9 -x 4470 -y 3320 -defaultsOSRD
+preplace port port-id_C2C2B_axi_c2c_link_status_out -pg 1 -lvl 9 -x 4470 -y 3340 -defaultsOSRD
+preplace port port-id_C2C2B_axi_c2c_multi_bit_error_out -pg 1 -lvl 9 -x 4470 -y 3360 -defaultsOSRD
+preplace port port-id_C2C2B_axi_c2c_link_error_out -pg 1 -lvl 9 -x 4470 -y 3380 -defaultsOSRD
+preplace port port-id_C2C2B_PHY_refclk -pg 1 -lvl 0 -x -80 -y 3660 -defaultsOSRD
+preplace port port-id_C2C2B_PHY_power_down -pg 1 -lvl 0 -x -80 -y 3490 -defaultsOSRD
+preplace port port-id_C2C2B_PHY_gt_pll_lock -pg 1 -lvl 9 -x 4470 -y 2970 -defaultsOSRD
+preplace port port-id_C2C2B_PHY_hard_err -pg 1 -lvl 9 -x 4470 -y 2990 -defaultsOSRD
+preplace port port-id_C2C2B_PHY_soft_err -pg 1 -lvl 9 -x 4470 -y 3050 -defaultsOSRD
+preplace port port-id_C2C2B_PHY_mmcm_not_locked_out -pg 1 -lvl 9 -x 4470 -y 3030 -defaultsOSRD
+preplace port port-id_C2C2B_PHY_link_reset_out -pg 1 -lvl 9 -x 4470 -y 3110 -defaultsOSRD
+preplace port port-id_C2C2B_PHY_channel_up -pg 1 -lvl 9 -x 4470 -y 2930 -defaultsOSRD
+preplace port port-id_C2C2B_PHY_CLK -pg 1 -lvl 9 -x 4470 -y 3130 -defaultsOSRD
+preplace port port-id_MONITOR_alarm -pg 1 -lvl 9 -x 4470 -y 4970 -defaultsOSRD
+preplace port port-id_MONITOR_vccint_alarm -pg 1 -lvl 9 -x 4470 -y 4810 -defaultsOSRD
+preplace port port-id_MONITOR_vccaux_alarm -pg 1 -lvl 9 -x 4470 -y 4890 -defaultsOSRD
+preplace port port-id_MONITOR_overtemp_alarm -pg 1 -lvl 9 -x 4470 -y 4910 -defaultsOSRD
+preplace port port-id_SI_scl_i -pg 1 -lvl 0 -x -80 -y 4430 -defaultsOSRD
+preplace port port-id_SI_sda_i -pg 1 -lvl 0 -x -80 -y 4730 -defaultsOSRD
+preplace port port-id_SI_sda_o -pg 1 -lvl 9 -x 4470 -y 4610 -defaultsOSRD
+preplace port port-id_SI_scl_o -pg 1 -lvl 9 -x 4470 -y 4540 -defaultsOSRD
+preplace port port-id_SI_scl_t -pg 1 -lvl 9 -x 4470 -y 4520 -defaultsOSRD
+preplace port port-id_SI_sda_t -pg 1 -lvl 9 -x 4470 -y 4630 -defaultsOSRD
+preplace portBus sys_resetter_primary_bus_rst_n -pg 1 -lvl 9 -x 4470 -y 3580 -defaultsOSRD
+preplace portBus sys_resetter_primary_intcn_rst_n -pg 1 -lvl 9 -x 4470 -y 3400 -defaultsOSRD
+preplace portBus sys_resetter_primary_rst_n -pg 1 -lvl 9 -x 4470 -y 4450 -defaultsOSRD
+preplace portBus sys_resetter_c2c_bus_rst_n -pg 1 -lvl 9 -x 4470 -y 3680 -defaultsOSRD
+preplace portBus sys_resetter_c2c_intcn_rst_n -pg 1 -lvl 9 -x 4470 -y 3740 -defaultsOSRD
+preplace portBus sys_resetter_c2c_rst_n -pg 1 -lvl 9 -x 4470 -y 3760 -defaultsOSRD
+preplace portBus SYS_RESET_bus_rst_n -pg 1 -lvl 9 -x 4470 -y 1720 -defaultsOSRD
+preplace portBus SYS_RESET_intcn_rst_n -pg 1 -lvl 9 -x 4470 -y 1780 -defaultsOSRD
+preplace portBus SYS_RESET_rst_n -pg 1 -lvl 9 -x 4470 -y 1800 -defaultsOSRD
+preplace portBus C2C1_PHY_lane_up -pg 1 -lvl 9 -x 4470 -y 200 -defaultsOSRD
+preplace portBus C2C1B_PHY_lane_up -pg 1 -lvl 9 -x 4470 -y 1400 -defaultsOSRD
+preplace portBus C2C2_PHY_lane_up -pg 1 -lvl 9 -x 4470 -y 4130 -defaultsOSRD
+preplace portBus C2C2B_PHY_lane_up -pg 1 -lvl 9 -x 4470 -y 3010 -defaultsOSRD
 preplace inst ZynqMPSoC -pg 1 -lvl 2 -x 730 -y 2920 -defaultsOSRD
-preplace inst sys_resetter_primary -pg 1 -lvl 7 -x 2990 -y 3320 -defaultsOSRD
-preplace inst sys_resetter_primary_BUS_RST_N -pg 1 -lvl 8 -x 3690 -y 3580 -defaultsOSRD
-preplace inst sys_resetter_c2c -pg 1 -lvl 7 -x 2990 -y 3560 -defaultsOSRD
-preplace inst sys_resetter_c2c_BUS_RST_N -pg 1 -lvl 8 -x 3690 -y 3680 -defaultsOSRD
-preplace inst SYS_RESET -pg 1 -lvl 7 -x 2990 -y 1700 -defaultsOSRD
-preplace inst SYS_RESET_BUS_RST_N -pg 1 -lvl 8 -x 3690 -y 1720 -defaultsOSRD
-preplace inst AXI_MAIN_INTERCONNECT -pg 1 -lvl 5 -x 2160 -y 2210 -defaultsOSRD
-preplace inst AXI_C2C_INTERCONNECT -pg 1 -lvl 3 -x 1290 -y 2740 -defaultsOSRD
-preplace inst IRQ0_INTR_CTRL -pg 1 -lvl 6 -x 2550 -y 2830 -defaultsOSRD
-preplace inst IRQ0_INTR_CTRL_IRQ -pg 1 -lvl 5 -x 2160 -y 2890 -defaultsOSRD
-preplace inst C2C1 -pg 1 -lvl 7 -x 2990 -y 500 -defaultsOSRD
-preplace inst C2C1_PHY -pg 1 -lvl 8 -x 3690 -y 250 -defaultsOSRD
-preplace inst C2C1_AXI_FW -pg 1 -lvl 6 -x 2550 -y 2120 -defaultsOSRD
-preplace inst C2C1B -pg 1 -lvl 7 -x 2990 -y 2000 -defaultsOSRD
-preplace inst C2C1B_PHY -pg 1 -lvl 8 -x 3690 -y 1450 -defaultsOSRD
-preplace inst C2C1_AXILITE_FW -pg 1 -lvl 6 -x 2550 -y 1940 -defaultsOSRD
-preplace inst C2C2 -pg 1 -lvl 7 -x 2990 -y 3860 -defaultsOSRD
-preplace inst C2C2_PHY -pg 1 -lvl 8 -x 3690 -y 4180 -defaultsOSRD
-preplace inst C2C2_AXI_FW -pg 1 -lvl 6 -x 2550 -y 3330 -defaultsOSRD
-preplace inst C2C2B -pg 1 -lvl 7 -x 2990 -y 3030 -defaultsOSRD
-preplace inst C2C2B_PHY -pg 1 -lvl 8 -x 3690 -y 3060 -defaultsOSRD
-preplace inst C2C2_AXILITE_FW -pg 1 -lvl 6 -x 2550 -y 2990 -defaultsOSRD
-preplace inst AXI_LOCAL_INTERCONNECT -pg 1 -lvl 8 -x 3690 -y 1040 -defaultsOSRD
+preplace inst sys_resetter_primary -pg 1 -lvl 7 -x 3160 -y 3320 -defaultsOSRD
+preplace inst sys_resetter_primary_BUS_RST_N -pg 1 -lvl 8 -x 4000 -y 3700 -defaultsOSRD
+preplace inst sys_resetter_c2c -pg 1 -lvl 7 -x 3160 -y 3560 -defaultsOSRD
+preplace inst sys_resetter_c2c_BUS_RST_N -pg 1 -lvl 8 -x 4000 -y 3800 -defaultsOSRD
+preplace inst SYS_RESET -pg 1 -lvl 7 -x 3160 -y 1700 -defaultsOSRD
+preplace inst SYS_RESET_BUS_RST_N -pg 1 -lvl 8 -x 4000 -y 1720 -defaultsOSRD
+preplace inst AXI_MAIN_INTERCONNECT -pg 1 -lvl 5 -x 2300 -y 2210 -defaultsOSRD
+preplace inst AXI_C2C_INTERCONNECT -pg 1 -lvl 3 -x 1310 -y 2740 -defaultsOSRD
+preplace inst IRQ0_INTR_CTRL -pg 1 -lvl 6 -x 2670 -y 2830 -defaultsOSRD
+preplace inst IRQ0_INTR_CTRL_IRQ -pg 1 -lvl 5 -x 2300 -y 2890 -defaultsOSRD
+preplace inst C2C1 -pg 1 -lvl 7 -x 3160 -y 500 -defaultsOSRD
+preplace inst C2C1_PHY -pg 1 -lvl 8 -x 4000 -y 250 -defaultsOSRD
+preplace inst C2C1_AXI_FW -pg 1 -lvl 6 -x 2670 -y 2120 -defaultsOSRD
+preplace inst C2C1B -pg 1 -lvl 7 -x 3160 -y 2000 -defaultsOSRD
+preplace inst C2C1B_PHY -pg 1 -lvl 8 -x 4000 -y 1450 -defaultsOSRD
+preplace inst C2C1_AXILITE_FW -pg 1 -lvl 6 -x 2670 -y 1940 -defaultsOSRD
+preplace inst C2C2 -pg 1 -lvl 7 -x 3160 -y 3860 -defaultsOSRD
+preplace inst C2C2_PHY -pg 1 -lvl 8 -x 4000 -y 4260 -defaultsOSRD
+preplace inst C2C2_AXI_FW -pg 1 -lvl 6 -x 2670 -y 3330 -defaultsOSRD
+preplace inst C2C2B -pg 1 -lvl 7 -x 3160 -y 3030 -defaultsOSRD
+preplace inst C2C2B_PHY -pg 1 -lvl 8 -x 4000 -y 3060 -defaultsOSRD
+preplace inst C2C2_AXILITE_FW -pg 1 -lvl 6 -x 2670 -y 2990 -defaultsOSRD
+preplace inst AXI_LOCAL_INTERCONNECT -pg 1 -lvl 8 -x 4000 -y 1040 -defaultsOSRD
 preplace inst PL_MEM -pg 1 -lvl 1 -x 170 -y 920 -defaultsOSRD
 preplace inst PL_MEM_RAM -pg 1 -lvl 2 -x 730 -y 990 -defaultsOSRD
 preplace inst PL_MEM_CM -pg 1 -lvl 1 -x 170 -y 750 -defaultsOSRD
 preplace inst PL_MEM_CM_RAM -pg 1 -lvl 2 -x 730 -y 770 -defaultsOSRD
-preplace inst CM_MON_AXI_FW -pg 1 -lvl 4 -x 1730 -y 2790 -defaultsOSRD
-preplace inst MONITOR -pg 1 -lvl 8 -x 3690 -y 4900 -defaultsOSRD
-preplace inst SI -pg 1 -lvl 8 -x 3690 -y 4590 -defaultsOSRD
-preplace inst CM1_UART -pg 1 -lvl 8 -x 3690 -y 2410 -defaultsOSRD
-preplace inst CM2_UART -pg 1 -lvl 8 -x 3690 -y 2690 -defaultsOSRD
-preplace inst CM1_PB_UART -pg 1 -lvl 8 -x 3690 -y 2270 -defaultsOSRD
-preplace inst CM2_PB_UART -pg 1 -lvl 8 -x 3690 -y 2550 -defaultsOSRD
-preplace inst ESM_UART -pg 1 -lvl 8 -x 3690 -y 3460 -defaultsOSRD
-preplace inst AXI_MON -pg 1 -lvl 4 -x 1730 -y 3230 -defaultsOSRD
-preplace inst INT_AXI_FW -pg 1 -lvl 4 -x 1730 -y 2950 -defaultsOSRD
-preplace netloc C2C1B_PHY_channel_up1 1 6 3 2750 1810 3410J 1790 3910
+preplace inst CM_MON_AXI_FW -pg 1 -lvl 4 -x 1780 -y 2790 -defaultsOSRD
+preplace inst MONITOR -pg 1 -lvl 8 -x 4000 -y 4980 -defaultsOSRD
+preplace inst SI -pg 1 -lvl 8 -x 4000 -y 4670 -defaultsOSRD
+preplace inst CM1_UART -pg 1 -lvl 8 -x 4000 -y 2410 -defaultsOSRD
+preplace inst CM2_UART -pg 1 -lvl 8 -x 4000 -y 2690 -defaultsOSRD
+preplace inst CM1_PB_UART -pg 1 -lvl 8 -x 4000 -y 2270 -defaultsOSRD
+preplace inst CM2_PB_UART -pg 1 -lvl 8 -x 4000 -y 2550 -defaultsOSRD
+preplace inst ESM_UART -pg 1 -lvl 8 -x 4000 -y 3580 -defaultsOSRD
+preplace inst AXI_MON -pg 1 -lvl 4 -x 1780 -y 3230 -defaultsOSRD
+preplace inst INT_AXI_FW -pg 1 -lvl 4 -x 1780 -y 2950 -defaultsOSRD
+preplace inst DMA_JTAG -pg 1 -lvl 8 -x 4000 -y 3400 -defaultsOSRD
+preplace netloc C2C1B_PHY_channel_up1 1 6 3 2910 1820 NJ 1820 4430
 preplace netloc C2C1B_PHY_gt_pll_lock1 1 8 1 NJ 1360
 preplace netloc C2C1B_PHY_hard_err1 1 8 1 NJ 1380
 preplace netloc C2C1B_PHY_lane_up1 1 8 1 NJ 1400
 preplace netloc C2C1B_PHY_link_reset_out1 1 8 1 NJ 1500
-preplace netloc C2C1B_PHY_mmcm_not_locked_out1 1 6 3 2760 1820 NJ 1820 3940
+preplace netloc C2C1B_PHY_mmcm_not_locked_out1 1 6 3 2940 1830 NJ 1830 4280
 preplace netloc C2C1B_PHY_power_down_1 1 0 8 NJ 1430 NJ 1430 NJ 1430 NJ 1430 NJ 1430 NJ 1430 NJ 1430 NJ
 preplace netloc C2C1B_PHY_refclk_1 1 0 8 NJ 1470 NJ 1470 NJ 1470 NJ 1470 NJ 1470 NJ 1470 NJ 1470 NJ
 preplace netloc C2C1B_PHY_soft_err1 1 8 1 NJ 1440
-preplace netloc C2C1B_PHY_user_clk_out 1 6 3 2770 1830 NJ 1830 3920
+preplace netloc C2C1B_PHY_user_clk_out 1 6 3 2900 1600 3790J 1780 4270
 preplace netloc C2C1B_aurora_do_cc1 1 7 2 NJ 1960 NJ
-preplace netloc C2C1B_aurora_pma_init_in_1 1 0 7 NJ 1780 NJ 1780 NJ 1780 NJ 1780 1860J 1740 NJ 1740 2710J
-preplace netloc C2C1B_aurora_pma_init_out 1 7 1 3320 1510n
-preplace netloc C2C1B_aurora_reset_pb1 1 7 2 3420 1980 NJ
+preplace netloc C2C1B_aurora_pma_init_in_1 1 0 7 NJ 1780 360J 1760 NJ 1760 1460J 1750 1930J 1740 NJ 1740 2880J
+preplace netloc C2C1B_aurora_pma_init_out 1 7 1 3490 1510n
+preplace netloc C2C1B_aurora_reset_pb1 1 7 2 3650 1980 NJ
 preplace netloc C2C1B_axi_c2c_config_error_out1 1 7 2 NJ 2020 NJ
 preplace netloc C2C1B_axi_c2c_link_error_out1 1 7 2 NJ 2080 NJ
 preplace netloc C2C1B_axi_c2c_link_status_out1 1 7 2 NJ 2040 NJ
 preplace netloc C2C1B_axi_c2c_multi_bit_error_out1 1 7 2 NJ 2060 NJ
-preplace netloc C2C1B_axi_c2c_s2m_intr_out 1 4 4 1970 1600 NJ 1600 NJ 1600 3210
-preplace netloc C2C1_PHY_channel_up1 1 6 3 2750 20 NJ 20 3910
+preplace netloc C2C1B_axi_c2c_s2m_intr_out 1 4 4 2150 1580 NJ 1580 NJ 1580 3380
+preplace netloc C2C1_PHY_channel_up1 1 6 3 2850 20 NJ 20 4270
 preplace netloc C2C1_PHY_gt_pll_lock1 1 8 1 NJ 160
 preplace netloc C2C1_PHY_hard_err1 1 8 1 NJ 180
 preplace netloc C2C1_PHY_lane_up1 1 8 1 NJ 200
 preplace netloc C2C1_PHY_link_reset_out1 1 8 1 NJ 300
-preplace netloc C2C1_PHY_mmcm_not_locked_out1 1 6 3 2760 310 3220J 480 3910
+preplace netloc C2C1_PHY_mmcm_not_locked_out1 1 6 3 2890 320 3790J 480 4270
 preplace netloc C2C1_PHY_power_down_1 1 0 8 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ
 preplace netloc C2C1_PHY_refclk_1 1 0 8 NJ 270 NJ 270 NJ 270 NJ 270 NJ 270 NJ 270 NJ 270 NJ
 preplace netloc C2C1_PHY_soft_err1 1 8 1 NJ 240
-preplace netloc C2C1_PHY_user_clk_out 1 6 3 2770 320 3480J 490 3900
-preplace netloc C2C1_aurora_do_cc1 1 7 2 3470J 500 3940J
+preplace netloc C2C1_PHY_user_clk_out 1 6 3 2920 330 3630J 490 4260
+preplace netloc C2C1_aurora_do_cc1 1 7 2 3780J 500 4430J
 preplace netloc C2C1_aurora_pma_init_in_1 1 0 7 NJ 550 NJ 550 NJ 550 NJ 550 NJ 550 NJ 550 NJ
-preplace netloc C2C1_aurora_pma_init_out 1 7 1 3340 310n
-preplace netloc C2C1_aurora_reset_pb1 1 7 2 3460 510 3950J
+preplace netloc C2C1_aurora_pma_init_out 1 7 1 3660 310n
+preplace netloc C2C1_aurora_reset_pb1 1 7 2 3770 510 4440J
 preplace netloc C2C1_axi_c2c_config_error_out1 1 7 2 NJ 520 NJ
 preplace netloc C2C1_axi_c2c_link_error_out1 1 7 2 NJ 580 NJ
 preplace netloc C2C1_axi_c2c_link_status_out1 1 7 2 NJ 540 NJ
 preplace netloc C2C1_axi_c2c_multi_bit_error_out1 1 7 2 NJ 560 NJ
-preplace netloc C2C1_axi_c2c_s2m_intr_out 1 4 4 2000 1380 NJ 1380 NJ 1380 3320
-preplace netloc C2C2B_PHY_channel_up1 1 6 3 2750 2800 NJ 2800 3910
+preplace netloc C2C1_axi_c2c_s2m_intr_out 1 4 4 2120 1380 NJ 1380 NJ 1380 3490
+preplace netloc C2C2B_PHY_channel_up1 1 6 3 2940 4030 3710J 3990 4360
 preplace netloc C2C2B_PHY_gt_pll_lock1 1 8 1 NJ 2970
 preplace netloc C2C2B_PHY_hard_err1 1 8 1 NJ 2990
 preplace netloc C2C2B_PHY_lane_up1 1 8 1 NJ 3010
 preplace netloc C2C2B_PHY_link_reset_out1 1 8 1 NJ 3110
-preplace netloc C2C2B_PHY_mmcm_not_locked_out1 1 6 3 2760 2810 NJ 2810 3930
-preplace netloc C2C2B_PHY_power_down_1 1 0 8 10J 3090 340J 3060 NJ 3060 1480J 2650 NJ 2650 NJ 2650 NJ 2650 3460J
-preplace netloc C2C2B_PHY_refclk_1 1 0 8 30J 3100 350J 3070 NJ 3070 1470J 2640 NJ 2640 NJ 2640 NJ 2640 3420J
+preplace netloc C2C2B_PHY_mmcm_not_locked_out1 1 6 3 2930 4040 3720J 4000 4300
+preplace netloc C2C2B_PHY_power_down_1 1 0 8 -30J 3080 NJ 3080 NJ 3080 1560J 2630 2090J 2670 NJ 2670 NJ 2670 3590J
+preplace netloc C2C2B_PHY_refclk_1 1 0 8 -40J 3060 NJ 3060 NJ 3060 1620J 3050 1910J 3080 NJ 3080 2790J 2840 3530J
 preplace netloc C2C2B_PHY_soft_err1 1 8 1 NJ 3050
-preplace netloc C2C2B_PHY_user_clk_out 1 6 3 2770 2820 NJ 2820 3920
-preplace netloc C2C2B_aurora_do_cc1 1 7 2 3370J 3290 3950J
-preplace netloc C2C2B_aurora_pma_init_in_1 1 0 7 20J 3110 360J 3080 NJ 3080 1530J 2660 NJ 2660 NJ 2660 2690J
-preplace netloc C2C2B_aurora_pma_init_out 1 7 1 3360 3010n
-preplace netloc C2C2B_aurora_reset_pb1 1 7 2 3350 3300 NJ
-preplace netloc C2C2B_axi_c2c_config_error_out1 1 7 2 3310J 3320 NJ
-preplace netloc C2C2B_axi_c2c_link_error_out1 1 7 2 3290J 3360 3920J
-preplace netloc C2C2B_axi_c2c_link_status_out1 1 7 2 3440J 2830 3940J
-preplace netloc C2C2B_axi_c2c_multi_bit_error_out1 1 7 2 3300J 3330 3930J
-preplace netloc C2C2B_axi_c2c_s2m_intr_out 1 4 4 1980 2720 2430J 2710 NJ 2710 3210
-preplace netloc C2C2_PHY_channel_up1 1 6 3 2770 4030 3470J 3950 3920
-preplace netloc C2C2_PHY_gt_pll_lock1 1 8 1 NJ 4090
-preplace netloc C2C2_PHY_hard_err1 1 8 1 NJ 4110
-preplace netloc C2C2_PHY_lane_up1 1 8 1 NJ 4130
-preplace netloc C2C2_PHY_link_reset_out1 1 8 1 NJ 4230
-preplace netloc C2C2_PHY_mmcm_not_locked_out1 1 6 3 2760 4040 3460J 3910 3940
-preplace netloc C2C2_PHY_power_down_1 1 0 8 NJ 4160 NJ 4160 NJ 4160 NJ 4160 NJ 4160 NJ 4160 NJ 4160 NJ
-preplace netloc C2C2_PHY_refclk_1 1 0 8 NJ 4200 NJ 4200 NJ 4200 NJ 4200 NJ 4200 NJ 4200 NJ 4200 NJ
-preplace netloc C2C2_PHY_soft_err1 1 8 1 NJ 4170
-preplace netloc C2C2_PHY_user_clk_out 1 6 3 2750 4410 NJ 4410 3950
-preplace netloc C2C2_aurora_do_cc1 1 7 2 NJ 3820 NJ
+preplace netloc C2C2B_PHY_user_clk_out 1 6 3 2910 4050 3700J 3930 4290
+preplace netloc C2C2B_aurora_do_cc1 1 7 2 3520J 2790 4440J
+preplace netloc C2C2B_aurora_pma_init_in_1 1 0 7 -20J 3090 NJ 3090 NJ 3090 1640J 3040 1920J 3100 NJ 3100 2840J
+preplace netloc C2C2B_aurora_pma_init_out 1 7 1 3520 3010n
+preplace netloc C2C2B_aurora_reset_pb1 1 7 2 3790 2800 4430J
+preplace netloc C2C2B_axi_c2c_config_error_out1 1 7 2 3480J 3860 4320J
+preplace netloc C2C2B_axi_c2c_link_error_out1 1 7 2 3460J 3870 4340J
+preplace netloc C2C2B_axi_c2c_link_status_out1 1 7 2 3540J 2810 4400J
+preplace netloc C2C2B_axi_c2c_multi_bit_error_out1 1 7 2 3560J 2820 4390J
+preplace netloc C2C2B_axi_c2c_s2m_intr_out 1 4 4 2120 3090 NJ 3090 2860J 2850 3380
+preplace netloc C2C2_PHY_channel_up1 1 6 3 2860 4060 3780J 4030 4300
+preplace netloc C2C2_PHY_gt_pll_lock1 1 8 1 4290J 4090n
+preplace netloc C2C2_PHY_hard_err1 1 8 1 4410J 4110n
+preplace netloc C2C2_PHY_lane_up1 1 8 1 4420J 4130n
+preplace netloc C2C2_PHY_link_reset_out1 1 8 1 4440J 4230n
+preplace netloc C2C2_PHY_mmcm_not_locked_out1 1 6 3 2840 4070 3770J 4010 4320
+preplace netloc C2C2_PHY_power_down_1 1 0 8 NJ 4160 NJ 4160 NJ 4160 NJ 4160 NJ 4160 NJ 4160 NJ 4160 3420J
+preplace netloc C2C2_PHY_refclk_1 1 0 8 NJ 4200 NJ 4200 NJ 4200 NJ 4200 NJ 4200 NJ 4200 NJ 4200 3380J
+preplace netloc C2C2_PHY_soft_err1 1 8 1 4310J 4170n
+preplace netloc C2C2_PHY_user_clk_out 1 6 3 2820 4080 3790J 4020 4340
+preplace netloc C2C2_aurora_do_cc1 1 7 2 3670J 2830 4380J
 preplace netloc C2C2_aurora_pma_init_in_1 1 0 7 NJ 3910 NJ 3910 NJ 3910 NJ 3910 NJ 3910 NJ 3910 NJ
-preplace netloc C2C2_aurora_pma_init_out 1 7 1 3210 3840n
-preplace netloc C2C2_aurora_reset_pb1 1 7 2 3440 3860 NJ
+preplace netloc C2C2_aurora_pma_init_out 1 7 1 3410 3840n
+preplace netloc C2C2_aurora_reset_pb1 1 7 2 3400 3910 4440J
 preplace netloc C2C2_axi_c2c_config_error_out1 1 7 2 NJ 3880 NJ
-preplace netloc C2C2_axi_c2c_link_error_out1 1 7 2 3450J 3890 3950J
+preplace netloc C2C2_axi_c2c_link_error_out1 1 7 2 NJ 3940 NJ
 preplace netloc C2C2_axi_c2c_link_status_out1 1 7 2 NJ 3900 NJ
 preplace netloc C2C2_axi_c2c_multi_bit_error_out1 1 7 2 NJ 3920 NJ
-preplace netloc C2C2_axi_c2c_s2m_intr_out 1 4 4 1960 2710 2350J 2720 NJ 2720 3230
-preplace netloc CM1_PB_UART_interrupt 1 4 5 1940 1580 NJ 1580 NJ 1580 3470J 1840 3900
-preplace netloc CM1_UART_interrupt 1 4 5 1950 1590 NJ 1590 NJ 1590 3450J 1850 3940
-preplace netloc CM2_PB_UART_interrupt 1 4 5 1990 2730 NJ 2730 NJ 2730 3480J 2770 3940
-preplace netloc CM2_UART_interrupt 1 4 5 2010 2740 NJ 2740 NJ 2740 3470J 2780 3900
-preplace netloc ESM_UART_interrupt 1 4 5 2000 3420 NJ 3420 NJ 3420 3480J 3380 3900
-preplace netloc INIT_CLK_1 1 0 8 NJ 3930 NJ 3930 NJ 3930 NJ 3930 NJ 3930 NJ 3930 2680 330 3430
-preplace netloc IRQ0_INTR_CTRL_IRQ_dout 1 5 1 2430 2860n
-preplace netloc IRQ0_INTR_CTRL_irq 1 1 6 370 3090 NJ 3090 1560J 2670 NJ 2670 NJ 2670 2670
-preplace netloc MONITOR_alarm_out 1 8 1 NJ 4970
-preplace netloc MONITOR_ot_out 1 8 1 NJ 4910
-preplace netloc MONITOR_vccaux_alarm_out 1 8 1 NJ 4890
-preplace netloc MONITOR_vccint_alarm_out 1 8 1 NJ 4810
-preplace netloc SI_iic2intc_irpt 1 4 5 1980 4050 NJ 4050 NJ 4050 3480J 3940 3910
-preplace netloc SI_scl_i_1 1 0 9 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 3210J 4440 3900
-preplace netloc SI_scl_o1 1 8 1 NJ 4550
-preplace netloc SI_scl_t1 1 8 1 NJ 4570
-preplace netloc SI_sda_i_1 1 0 9 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 3900
-preplace netloc SI_sda_o1 1 8 1 NJ 4610
-preplace netloc SI_sda_t1 1 8 1 NJ 4630
+preplace netloc C2C2_axi_c2c_s2m_intr_out 1 4 4 2050 3110 NJ 3110 2880J 2860 3390
+preplace netloc CM1_PB_UART_interrupt 1 4 5 2130 1560 NJ 1560 NJ 1560 3770J 1850 4220
+preplace netloc CM1_UART_interrupt 1 4 5 2140 1570 NJ 1570 NJ 1570 3750J 1860 4270
+preplace netloc CM2_PB_UART_interrupt 1 4 5 2130 4110 NJ 4110 NJ 4110 3730J 3950 4250
+preplace netloc CM2_UART_interrupt 1 4 5 2100 4120 NJ 4120 NJ 4120 3750J 3960 4240
+preplace netloc ESM_UART_interrupt 1 4 5 2110 4490 NJ 4490 NJ 4490 NJ 4490 4270
+preplace netloc INIT_CLK_1 1 0 8 NJ 3930 NJ 3930 NJ 3930 NJ 3930 NJ 3930 NJ 3930 2850 680 3690
+preplace netloc IRQ0_INTR_CTRL_IRQ_dout 1 5 1 2550 2860n
+preplace netloc IRQ0_INTR_CTRL_irq 1 1 6 370 3070 NJ 3070 1600J 2670 2070J 2680 NJ 2680 2790
+preplace netloc MONITOR_alarm_out 1 8 1 4440J 4970n
+preplace netloc MONITOR_ot_out 1 8 1 4430J 4910n
+preplace netloc MONITOR_vccaux_alarm_out 1 8 1 4390J 4890n
+preplace netloc MONITOR_vccint_alarm_out 1 8 1 4290J 4810n
+preplace netloc SI_iic2intc_irpt 1 4 5 2070 4520 NJ 4520 NJ 4520 NJ 4520 4230
+preplace netloc SI_scl_i_1 1 0 9 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 3380J 4530 4210
+preplace netloc SI_scl_o1 1 8 1 4420J 4540n
+preplace netloc SI_scl_t1 1 8 1 4400J 4520n
+preplace netloc SI_sda_i_1 1 0 9 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 3380J 4810 4210
+preplace netloc SI_sda_o1 1 8 1 4430J 4610n
+preplace netloc SI_sda_t1 1 8 1 4440J 4630n
 preplace netloc SYS_RESET_BUS_RST_N_Res 1 8 1 NJ 1720
-preplace netloc SYS_RESET_bus_struct_reset 1 7 1 3480J 1680n
-preplace netloc SYS_RESET_interconnect_aresetn 1 7 2 3460J 1780 NJ
-preplace netloc SYS_RESET_peripheral_aresetn 1 7 2 3440J 1810 3950J
-preplace netloc ZynqMPSoC_pl_clk1 1 0 9 20 830 370 2580 1100 3010 1550 2560 1900 1780 2390 1780 2700 1370 3340 4430 NJ
-preplace netloc ZynqMPSoC_pl_resetn0 1 2 5 1090J 2990 1510J 2680 NJ 2680 NJ 2680 2720
+preplace netloc SYS_RESET_bus_struct_reset 1 7 1 3780J 1680n
+preplace netloc SYS_RESET_interconnect_aresetn 1 7 2 3760J 1790 4440J
+preplace netloc SYS_RESET_peripheral_aresetn 1 7 2 3740J 1810 4440J
+preplace netloc ZynqMPSoC_pl_clk1 1 0 9 10 1020 350 2560 1120 3110 1490 2560 2030 1750 2530 1760 2830 1370 3630 4510 4430J
+preplace netloc ZynqMPSoC_pl_resetn0 1 2 5 1090J 3010 1550J 2680 2060J 2690 NJ 2690 2890
 preplace netloc c2c_interconnect_reset_1 1 0 7 NJ 3560 NJ 3560 NJ 3560 NJ 3560 NJ 3560 NJ 3560 NJ
-preplace netloc sys_resetter_c2c_BUS_RST_N_Res 1 8 1 NJ 3680
-preplace netloc sys_resetter_c2c_bus_struct_reset 1 7 1 3260J 3540n
-preplace netloc sys_resetter_c2c_interconnect_aresetn 1 2 7 1130 3020 1440 3460 NJ 3460 NJ 3460 NJ 3460 3270 3740 NJ
-preplace netloc sys_resetter_c2c_peripheral_aresetn 1 2 7 1140 3000 1590 3440 NJ 3440 NJ 3440 NJ 3440 3250 3760 NJ
-preplace netloc sys_resetter_primary_BUS_RST_N_Res 1 8 1 NJ 3580
-preplace netloc sys_resetter_primary_bus_struct_reset 1 7 1 3280J 3300n
-preplace netloc sys_resetter_primary_interconnect_aresetn 1 3 6 1600 3410 1930 3410 2430J 3430 NJ 3430 3250 3370 3910J
-preplace netloc sys_resetter_primary_peripheral_aresetn 1 0 9 0 650 NJ 650 NJ 650 NJ 650 1890 1750 2370 2540 NJ 2540 3220 4450 NJ
-preplace netloc AXIM_PL_1 1 0 4 NJ 3040 310J 3030 NJ 3030 1570J
-preplace netloc AXI_C2C_INTERCONNECT_M00_AXI 1 3 3 1440J 1790 1870J 1760 2430
-preplace netloc AXI_C2C_INTERCONNECT_M01_AXI 1 3 3 1450J 1800 1880J 1770 2420
-preplace netloc AXI_C2C_INTERCONNECT_M02_AXI 1 3 3 1460 2690 NJ 2690 2320J
-preplace netloc AXI_C2C_INTERCONNECT_M03_AXI 1 3 3 1520 2700 NJ 2700 2340J
-preplace netloc AXI_C2C_INTERCONNECT_M04_AXI 1 3 1 1540 2760n
-preplace netloc AXI_C2C_INTERCONNECT_M05_AXI 1 3 1 1500 2780n
-preplace netloc AXI_C2C_INTERCONNECT_M06_AXI 1 3 1 1490 2800n
-preplace netloc AXI_LOCAL_INTERCONNECT_M00_AXI 1 0 9 30 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 3900
-preplace netloc AXI_LOCAL_INTERCONNECT_M01_AXI 1 0 9 30 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 3940
+preplace netloc sys_resetter_c2c_BUS_RST_N_Res 1 8 1 4350J 3680n
+preplace netloc sys_resetter_c2c_bus_struct_reset 1 7 1 3450J 3540n
+preplace netloc sys_resetter_c2c_interconnect_aresetn 1 2 7 1160 3020 1590 2620 2080J 2700 NJ 2700 NJ 2700 3440 2770 4420J
+preplace netloc sys_resetter_c2c_peripheral_aresetn 1 2 7 1150 3100 1630 3420 NJ 3420 NJ 3420 NJ 3420 3380 3890 4430J
+preplace netloc sys_resetter_primary_BUS_RST_N_Res 1 8 1 4330J 3580n
+preplace netloc sys_resetter_primary_bus_struct_reset 1 7 1 3470J 3300n
+preplace netloc sys_resetter_primary_interconnect_aresetn 1 3 6 1650 2610 2100 2710 NJ 2710 NJ 2710 3400 2780 4410J
+preplace netloc sys_resetter_primary_peripheral_aresetn 1 0 9 30 1010 330J 920 NJ 920 NJ 920 2110 1590 2540 1590 NJ 1590 3660 4500 4440J
+preplace netloc axi_dma_0_mm2s_introut 1 4 5 2150 4090 N 4090 N 4090 3740 3970 4230
+preplace netloc axi_dma_0_s2mm_introut 1 4 5 2140 4100 N 4100 N 4100 3760 3980 4220
+preplace netloc AXIM_PL_1 1 0 4 NJ 3040 NJ 3040 NJ 3040 1620J
+preplace netloc AXI_C2C_INTERCONNECT_M00_AXI 1 3 3 1470J 1760 NJ 1760 2510
+preplace netloc AXI_C2C_INTERCONNECT_M01_AXI 1 3 3 1480J 1780 NJ 1780 2550
+preplace netloc AXI_C2C_INTERCONNECT_M02_AXI 1 3 3 1510 2690 1940J 2720 2450J
+preplace netloc AXI_C2C_INTERCONNECT_M03_AXI 1 3 3 1540 2700 1930J 3060 2550J
+preplace netloc AXI_C2C_INTERCONNECT_M04_AXI 1 3 1 1580 2750n
+preplace netloc AXI_C2C_INTERCONNECT_M05_AXI 1 3 1 1540 2770n
+preplace netloc AXI_C2C_INTERCONNECT_M06_AXI 1 3 1 1530 2790n
+preplace netloc AXI_LOCAL_INTERCONNECT_M00_AXI 1 0 9 -20 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 4260
+preplace netloc AXI_LOCAL_INTERCONNECT_M01_AXI 1 0 9 20 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 4220
 preplace netloc AXI_LOCAL_INTERCONNECT_M02_AXI 1 8 1 NJ 1040
 preplace netloc AXI_LOCAL_INTERCONNECT_M03_AXI 1 8 1 NJ 1060
 preplace netloc AXI_LOCAL_INTERCONNECT_M04_AXI 1 8 1 NJ 1080
-preplace netloc AXI_MAIN_INTERCONNECT_M00_AXI 1 5 1 2410 2070n
-preplace netloc AXI_MAIN_INTERCONNECT_M01_AXI 1 5 1 2420 2090n
-preplace netloc AXI_MAIN_INTERCONNECT_M02_AXI 1 5 1 2330 1930n
-preplace netloc AXI_MAIN_INTERCONNECT_M03_AXI 1 5 1 2330 2130n
-preplace netloc AXI_MAIN_INTERCONNECT_M04_AXI 1 5 1 2360 2150n
-preplace netloc AXI_MAIN_INTERCONNECT_M05_AXI 1 5 3 2320J 1360 NJ 1360 3380
-preplace netloc AXI_MAIN_INTERCONNECT_M06_AXI 1 5 3 2340J 2030 2690J 2180 3330
-preplace netloc AXI_MAIN_INTERCONNECT_M07_AXI 1 5 3 NJ 2210 NJ 2210 3320
-preplace netloc AXI_MAIN_INTERCONNECT_M08_AXI 1 5 4 2380J 2220 2670J 2170 NJ 2170 NJ
-preplace netloc AXI_MAIN_INTERCONNECT_M09_AXI 1 5 4 NJ 2250 2690J 2190 NJ 2190 NJ
-preplace netloc AXI_MAIN_INTERCONNECT_M10_AXI 1 5 3 NJ 2270 NJ 2270 3230
-preplace netloc AXI_MAIN_INTERCONNECT_M11_AXI 1 5 3 NJ 2290 NJ 2290 3210
-preplace netloc AXI_MAIN_INTERCONNECT_M12_AXI 1 5 3 2400J 2260 NJ 2260 3410
-preplace netloc AXI_MAIN_INTERCONNECT_M13_AXI 1 5 3 NJ 2330 NJ 2330 3480
-preplace netloc AXI_MAIN_INTERCONNECT_M14_AXI 1 5 3 NJ 2350 NJ 2350 3380
-preplace netloc C2C1B_AXIS_TX 1 7 1 3380 1370n
+preplace netloc AXI_MAIN_INTERCONNECT_M00_AXI 1 5 1 2550 2070n
+preplace netloc AXI_MAIN_INTERCONNECT_M01_AXI 1 5 1 2500 2090n
+preplace netloc AXI_MAIN_INTERCONNECT_M02_AXI 1 5 1 2490 1930n
+preplace netloc AXI_MAIN_INTERCONNECT_M03_AXI 1 5 1 2460 2130n
+preplace netloc AXI_MAIN_INTERCONNECT_M04_AXI 1 5 1 2470 2150n
+preplace netloc AXI_MAIN_INTERCONNECT_M05_AXI 1 5 3 2480J 1360 NJ 1360 3500
+preplace netloc AXI_MAIN_INTERCONNECT_M06_AXI 1 5 3 2500J 2220 NJ 2220 3490
+preplace netloc AXI_MAIN_INTERCONNECT_M07_AXI 1 5 3 NJ 2210 NJ 2210 3510
+preplace netloc AXI_MAIN_INTERCONNECT_M08_AXI 1 5 4 NJ 2230 NJ 2230 3500J 2160 4440J
+preplace netloc AXI_MAIN_INTERCONNECT_M09_AXI 1 5 4 NJ 2250 NJ 2250 3610J 2190 NJ
+preplace netloc AXI_MAIN_INTERCONNECT_M10_AXI 1 5 3 NJ 2270 NJ 2270 3610
+preplace netloc AXI_MAIN_INTERCONNECT_M11_AXI 1 5 3 NJ 2290 NJ 2290 3600
+preplace netloc AXI_MAIN_INTERCONNECT_M12_AXI 1 5 3 NJ 2310 NJ 2310 3620
+preplace netloc AXI_MAIN_INTERCONNECT_M13_AXI 1 5 3 NJ 2330 NJ 2330 3790
+preplace netloc AXI_MAIN_INTERCONNECT_M14_AXI 1 5 3 NJ 2350 NJ 2350 3580
+preplace netloc C2C1B_AXIS_TX 1 7 1 3640 1370n
 preplace netloc C2C1B_PHY_DRP_1 1 0 8 NJ 1390 NJ 1390 NJ 1390 NJ 1390 NJ 1390 NJ 1390 NJ 1390 NJ
 preplace netloc C2C1B_PHY_GT_SERIAL_TX 1 8 1 NJ 1460
 preplace netloc C2C1B_PHY_Rx_1 1 0 8 NJ 1450 NJ 1450 NJ 1450 NJ 1450 NJ 1450 NJ 1450 NJ 1450 NJ
 preplace netloc C2C1B_PHY_TRANSCEIVER_DEBUG 1 8 1 NJ 1300
-preplace netloc C2C1B_PHY_USER_DATA_M_AXIS_RX 1 6 3 2740 1800 NJ 1800 3900
+preplace netloc C2C1B_PHY_USER_DATA_M_AXIS_RX 1 6 3 2920 1800 NJ 1800 4220
 preplace netloc C2C1_AXILITE_FW_M_AXI 1 6 1 N 1910
-preplace netloc C2C1_AXIS_TX 1 7 1 3320 170n
-preplace netloc C2C1_AXI_FW_M_AXI 1 6 1 2670 390n
+preplace netloc C2C1_AXIS_TX 1 7 1 3490 170n
+preplace netloc C2C1_AXI_FW_M_AXI 1 6 1 2790 390n
 preplace netloc C2C1_PHY_DRP_1 1 0 8 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ
 preplace netloc C2C1_PHY_GT_SERIAL_TX 1 8 1 NJ 260
 preplace netloc C2C1_PHY_Rx_1 1 0 8 NJ 250 NJ 250 NJ 250 NJ 250 NJ 250 NJ 250 NJ 250 NJ
 preplace netloc C2C1_PHY_TRANSCEIVER_DEBUG 1 8 1 NJ 100
-preplace netloc C2C1_PHY_USER_DATA_M_AXIS_RX 1 6 3 2700 10 NJ 10 3900
-preplace netloc C2C2B_AXIS_TX 1 7 1 3400 2950n
-preplace netloc C2C2B_PHY_DRP_1 1 0 8 -10J 3050 320J 3040 NJ 3040 NJ 3040 NJ 3040 2310J 3080 2670J 2850 3410J
+preplace netloc C2C1_PHY_USER_DATA_M_AXIS_RX 1 6 3 2830 10 NJ 10 4260
+preplace netloc C2C2B_AXIS_TX 1 7 1 3570 2950n
+preplace netloc C2C2B_PHY_DRP_1 1 0 8 -60J 3030 NJ 3030 NJ 3030 1520J 2650 2070J 2640 NJ 2640 NJ 2640 3680J
 preplace netloc C2C2B_PHY_GT_SERIAL_TX 1 8 1 NJ 3070
-preplace netloc C2C2B_PHY_Rx_1 1 0 8 0J 3060 330J 3050 NJ 3050 NJ 3050 1860J 3090 NJ 3090 2730J 2860 3390J
+preplace netloc C2C2B_PHY_Rx_1 1 0 8 -50J 3050 NJ 3050 NJ 3050 1570J 2660 NJ 2660 NJ 2660 NJ 2660 3610J
 preplace netloc C2C2B_PHY_TRANSCEIVER_DEBUG 1 8 1 NJ 2910
-preplace netloc C2C2B_PHY_USER_DATA_M_AXIS_RX 1 6 3 2740 2790 NJ 2790 3900
-preplace netloc C2C2_AXILITE_FW_M_AXI 1 6 1 2710 2940n
-preplace netloc C2C2_AXIS_TX 1 7 1 3250 3780n
-preplace netloc C2C2_AXI_FW_M_AXI 1 6 1 2670 3300n
-preplace netloc C2C2_PHY_DRP_1 1 0 8 NJ 4120 NJ 4120 NJ 4120 NJ 4120 NJ 4120 NJ 4120 NJ 4120 NJ
-preplace netloc C2C2_PHY_GT_SERIAL_TX 1 8 1 NJ 4190
-preplace netloc C2C2_PHY_Rx_1 1 0 8 NJ 4180 NJ 4180 NJ 4180 NJ 4180 NJ 4180 NJ 4180 NJ 4180 NJ
-preplace netloc C2C2_PHY_TRANSCEIVER_DEBUG 1 8 1 NJ 4030
-preplace netloc C2C2_PHY_USER_DATA_M_AXIS_RX 1 6 3 2770 3690 3240J 3750 3900
+preplace netloc C2C2B_PHY_USER_DATA_M_AXIS_RX 1 6 3 2920 2180 NJ 2180 4210
+preplace netloc C2C2_AXILITE_FW_M_AXI 1 6 1 2870 2940n
+preplace netloc C2C2_AXIS_TX 1 7 1 3440 3780n
+preplace netloc C2C2_AXI_FW_M_AXI 1 6 1 2790 3300n
+preplace netloc C2C2_PHY_DRP_1 1 0 8 NJ 4120 NJ 4120 NJ 4120 NJ 4120 1910J 4130 NJ 4130 NJ 4130 3430J
+preplace netloc C2C2_PHY_GT_SERIAL_TX 1 8 1 4430J 4190n
+preplace netloc C2C2_PHY_Rx_1 1 0 8 NJ 4180 NJ 4180 NJ 4180 NJ 4180 NJ 4180 NJ 4180 NJ 4180 3390J
+preplace netloc C2C2_PHY_TRANSCEIVER_DEBUG 1 8 1 4400J 4030n
+preplace netloc C2C2_PHY_USER_DATA_M_AXIS_RX 1 6 3 2900 2170 NJ 2170 4260
 preplace netloc CM1_PB_UART_UART 1 8 1 NJ 2260
 preplace netloc CM1_UART_UART 1 8 1 NJ 2400
 preplace netloc CM2_PB_UART_UART 1 8 1 NJ 2540
 preplace netloc CM2_UART_UART 1 8 1 NJ 2680
-preplace netloc ESM_UART_UART 1 8 1 NJ 3450
+preplace netloc ESM_UART_UART 1 8 1 4310J 3450n
 preplace netloc PL_MEM_BRAM_PORTA 1 1 1 310 920n
 preplace netloc PL_MEM_CM_BRAM_PORTA 1 1 1 310 750n
-preplace netloc PL_MEM_CM_RAM_PORTB_1 1 0 2 -10J 660 370J
+preplace netloc PL_MEM_CM_RAM_PORTB_1 1 0 2 NJ 830 310J
 preplace netloc PL_MEM_RAM_PORTB_1 1 0 2 NJ 1000 NJ
-preplace netloc S00_AXI_1 1 4 1 1910 1840n
-preplace netloc S01_AXI_1 1 4 1 1920 1860n
-preplace netloc ZynqMPSoC_M_AXI_HPM0_FPD 1 2 2 1120J 2980 1580
-preplace netloc ZynqMPSoC_M_AXI_HPM1_FPD 1 2 2 1110 3150 N
-levelinfo -pg 1 -30 170 730 1290 1730 2160 2550 2990 3690 3970
-pagesize -pg 1 -db -bbox -sgen -280 0 4290 5070
+preplace netloc S00_AXI_1 1 4 1 2040 1840n
+preplace netloc S01_AXI_1 1 4 1 2050 1860n
+preplace netloc ZynqMPSoC_M_AXI_HPM0_FPD 1 2 2 1140J 3000 1610
+preplace netloc ZynqMPSoC_M_AXI_HPM1_FPD 1 2 2 1130 3150 N
+preplace netloc axi_interconnect_0_M00_AXI 1 1 8 370 1770 NJ 1770 NJ 1770 NJ 1770 N 1770 2860 1810 3730 1840 4280
+preplace netloc AXI_C2C_INTERCONNECT_M07_AXI 1 3 5 1500 2640 2060 2650 N 2650 N 2650 3550
+preplace netloc axis_jtag_0_jtag_0 1 8 1 4370J 3330n
+levelinfo -pg 1 -80 170 730 1310 1780 2300 2670 3160 4000 4470
+pagesize -pg 1 -db -bbox -sgen -330 -130 4790 5150
 "
 }
-
+0

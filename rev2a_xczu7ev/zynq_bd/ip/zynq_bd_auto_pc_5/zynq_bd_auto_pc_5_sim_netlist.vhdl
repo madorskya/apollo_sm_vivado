@@ -2,10 +2,10 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
--- Date        : Sat Apr 20 17:14:43 2024
+-- Date        : Wed May  8 09:42:51 2024
 -- Host        : tesla.bu.edu running 64-bit AlmaLinux release 8.8 (Sapphire Caracal)
--- Command     : write_vhdl -force -mode funcsim -rename_top zynq_bd_auto_pc_5 -prefix
---               zynq_bd_auto_pc_5_ zynq_bd_auto_pc_5_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               /home/madorsky/github/apollo/apollo_sm_vivado/rev2a_xczu7ev/zynq_bd/ip/zynq_bd_auto_pc_5/zynq_bd_auto_pc_5_sim_netlist.vhdl
 -- Design      : zynq_bd_auto_pc_5
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -54,6 +54,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_incr_cmd is
     \axlen_cnt_reg[6]_1\ : in STD_LOGIC_VECTOR ( 1 downto 0 );
     \axaddr_incr_reg[11]_2\ : in STD_LOGIC_VECTOR ( 5 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_incr_cmd : entity is "axi_protocol_converter_v2_1_29_b2s_incr_cmd";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_incr_cmd;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_incr_cmd is
@@ -1320,6 +1322,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_rd_cmd_fsm is
     m_valid_i_reg_1 : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_rd_cmd_fsm : entity is "axi_protocol_converter_v2_1_29_b2s_rd_cmd_fsm";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_rd_cmd_fsm;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_rd_cmd_fsm is
@@ -1771,6 +1775,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_simple_fifo is
     \in\ : in STD_LOGIC_VECTOR ( 7 downto 0 );
     aclk : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_simple_fifo : entity is "axi_protocol_converter_v2_1_29_b2s_simple_fifo";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_simple_fifo;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_simple_fifo is
@@ -3257,6 +3263,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_wr_cmd_fsm is
     \axaddr_incr[11]_i_5_1\ : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_wr_cmd_fsm : entity is "axi_protocol_converter_v2_1_29_b2s_wr_cmd_fsm";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_wr_cmd_fsm;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_wr_cmd_fsm is
@@ -3630,6 +3638,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_wrap_cmd is
     \wrap_boundary_axaddr_r_reg[6]_0\ : in STD_LOGIC_VECTOR ( 6 downto 0 );
     \axaddr_wrap_reg[11]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_wrap_cmd : entity is "axi_protocol_converter_v2_1_29_b2s_wrap_cmd";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_wrap_cmd;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_wrap_cmd is
@@ -5587,6 +5597,8 @@ entity zynq_bd_auto_pc_5_axi_register_slice_v2_1_29_axic_register_slice is
     aresetn : in STD_LOGIC;
     \m_payload_i_reg[0]_1\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_register_slice_v2_1_29_axic_register_slice : entity is "axi_register_slice_v2_1_29_axic_register_slice";
 end zynq_bd_auto_pc_5_axi_register_slice_v2_1_29_axic_register_slice;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_register_slice_v2_1_29_axic_register_slice is
@@ -9823,6 +9835,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_b_channel is
     m_axi_bvalid : in STD_LOGIC;
     \in\ : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_b_channel : entity is "axi_protocol_converter_v2_1_29_b2s_b_channel";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_b_channel;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_b_channel is
@@ -10166,6 +10180,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_cmd_translator is
     \axaddr_wrap_reg[11]\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     \axaddr_incr_reg[11]_0\ : in STD_LOGIC_VECTOR ( 5 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_cmd_translator : entity is "axi_protocol_converter_v2_1_29_b2s_cmd_translator";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_cmd_translator;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_cmd_translator is
@@ -10544,6 +10560,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_r_channel is
     \in\ : in STD_LOGIC_VECTOR ( 33 downto 0 );
     areset_d1 : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_r_channel : entity is "axi_protocol_converter_v2_1_29_b2s_r_channel";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_r_channel;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_r_channel is
@@ -10715,6 +10733,8 @@ entity zynq_bd_auto_pc_5_axi_register_slice_v2_1_29_axi_register_slice is
     E : in STD_LOGIC_VECTOR ( 0 to 0 );
     \m_payload_i_reg[0]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_register_slice_v2_1_29_axi_register_slice : entity is "axi_register_slice_v2_1_29_axi_register_slice";
 end zynq_bd_auto_pc_5_axi_register_slice_v2_1_29_axi_register_slice;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_register_slice_v2_1_29_axi_register_slice is
@@ -10921,6 +10941,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_ar_channel is
     D : in STD_LOGIC_VECTOR ( 6 downto 0 );
     \axaddr_incr_reg[11]_0\ : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_ar_channel : entity is "axi_protocol_converter_v2_1_29_b2s_ar_channel";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_ar_channel;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_ar_channel is
@@ -11150,6 +11172,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_aw_channel is
     \wrap_cnt_r_reg[1]\ : in STD_LOGIC;
     \wrap_boundary_axaddr_r_reg[6]\ : in STD_LOGIC_VECTOR ( 6 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_aw_channel : entity is "axi_protocol_converter_v2_1_29_b2s_aw_channel";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_aw_channel;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s_aw_channel is
@@ -11414,6 +11438,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s is
     s_axi_arvalid : in STD_LOGIC;
     aresetn : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s : entity is "axi_protocol_converter_v2_1_29_b2s";
 end zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s;
 
 architecture STRUCTURE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_b2s is
@@ -12034,6 +12060,8 @@ entity zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_axi_protocol_converter i
   attribute C_TRANSLATION_MODE of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is 2;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is "yes";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is "axi_protocol_converter_v2_1_29_axi_protocol_converter";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of zynq_bd_auto_pc_5_axi_protocol_converter_v2_1_29_axi_protocol_converter : entity is 1;
   attribute P_AXI4 : integer;

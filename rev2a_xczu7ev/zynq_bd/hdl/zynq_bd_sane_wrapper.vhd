@@ -327,7 +327,11 @@ entity zynq_bd_sane_wrapper is
     sys_resetter_c2c_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
     sys_resetter_primary_bus_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
     sys_resetter_primary_intcn_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
-    sys_resetter_primary_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 )
+    sys_resetter_primary_rst_n : out STD_LOGIC_VECTOR ( 0 to 0 );
+    dma_jtag_tck : out std_logic;
+    dma_jtag_tms : out std_logic;
+    dma_jtag_tdi : out std_logic;
+    dma_jtag_tdo : in  std_logic
   );
 end zynq_bd_sane_wrapper;
 
@@ -725,7 +729,11 @@ architecture STRUCTURE of zynq_bd_sane_wrapper is
     SI_sda_o                                 : out   STD_LOGIC;
     SI_scl_o                                 : out   STD_LOGIC;
     SI_scl_t                                 : out   STD_LOGIC;
-    SI_sda_t                                 : out   STD_LOGIC
+    SI_sda_t                                 : out   STD_LOGIC;
+    dma_jtag_tck : out std_logic;
+    dma_jtag_tms : out std_logic;
+    dma_jtag_tdi : out std_logic;
+    dma_jtag_tdo : in  std_logic
   );
   end component zynq_bd;
 begin
@@ -1122,6 +1130,10 @@ zynq_bd_i: component zynq_bd
     sys_resetter_c2c_rst_n                   => sys_resetter_c2c_rst_n,
     sys_resetter_primary_bus_rst_n           => sys_resetter_primary_bus_rst_n,
     sys_resetter_primary_intcn_rst_n         => sys_resetter_primary_intcn_rst_n,
-    sys_resetter_primary_rst_n               => sys_resetter_primary_rst_n
+    sys_resetter_primary_rst_n               => sys_resetter_primary_rst_n,
+    dma_jtag_tck => dma_jtag_tck,
+    dma_jtag_tms => dma_jtag_tms,
+    dma_jtag_tdi => dma_jtag_tdi,
+    dma_jtag_tdo => dma_jtag_tdo
     );
 end STRUCTURE;
