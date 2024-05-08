@@ -1,0 +1,7 @@
+__pycache__/
+modelsim.ini
+results.xml
+sim_build/
+transcript
+vish_stacktrace.vstf
+vsim.wlf
