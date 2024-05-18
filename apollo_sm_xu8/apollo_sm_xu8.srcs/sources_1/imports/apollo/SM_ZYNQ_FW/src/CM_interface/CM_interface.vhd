@@ -263,17 +263,17 @@ begin
         O => to_CM_out.CM(iCM).UART_Tx);
     CM_TMS_BUF_X : OBUFT
       port map (
-        T => CM_disable(iCM),
+        T => '0', --CM_disable(iCM),
         I => to_CM_in.CM(iCM).TMS,
         O => to_CM_out.CM(iCM).TMS);
     CM_TDI_BUF_X : OBUFT
       port map (
-        T => CM_disable(iCM),
+        T => '0', --CM_disable(iCM),
         I => to_CM_in.CM(iCM).TDI,
         O => to_CM_out.CM(iCM).TDI);
     CM_TCK_BUF_X : OBUFT
       port map (
-        T => CM_disable(iCM),
+        T => '0', --CM_disable(iCM),
         I => to_CM_in.CM(iCM).TCK,
         O => to_CM_out.CM(iCM).TCK);
 

@@ -5044,13 +5044,13 @@
             "value": "IOPLL"
           },
           "PSU__CRL_APB__PL0_REF_CTRL__ACT_FREQMHZ": {
-            "value": "99.999001"
+            "value": "79.999199"
           },
           "PSU__CRL_APB__PL0_REF_CTRL__FREQMHZ": {
-            "value": "100"
+            "value": "80"
           },
           "PSU__CRL_APB__PL0_REF_CTRL__SRCSEL": {
-            "value": "RPLL"
+            "value": "DPLL"
           },
           "PSU__CRL_APB__PL1_REF_CTRL__ACT_FREQMHZ": {
             "value": "49.999500"
@@ -11862,6 +11862,10 @@
           "s2mm_introut": {
             "type": "intr",
             "direction": "O"
+          },
+          "s_axis_aclk": {
+            "type": "clk",
+            "direction": "I"
           }
         },
         "components": {
@@ -11874,6 +11878,9 @@
             "parameters": {
               "FIFO_DEPTH": {
                 "value": "64"
+              },
+              "IS_ACLK_ASYNC": {
+                "value": "1"
               },
               "TDATA_NUM_BYTES": {
                 "value": "8"
@@ -12635,6 +12642,13 @@
           }
         },
         "nets": {
+          "Net": {
+            "ports": [
+              "s_axis_aclk",
+              "axis_jtag_0/s_axis_aclk",
+              "axis_data_fifo_0/m_axis_aclk"
+            ]
+          },
           "ZynqMPSoC_pl_clk0": {
             "ports": [
               "s_axi_lite_aclk",
@@ -12647,7 +12661,6 @@
               "axi_interconnect_0/M00_ACLK",
               "axi_interconnect_0/S01_ACLK",
               "axi_interconnect_0/S02_ACLK",
-              "axis_jtag_0/s_axis_aclk",
               "axis_data_fifo_0/s_axis_aclk"
             ]
           },
@@ -13735,6 +13748,12 @@
         "ports": [
           "SYS_RESET/peripheral_aresetn",
           "SYS_RESET_rst_n"
+        ]
+      },
+      "ZynqMPSoC_pl_clk0": {
+        "ports": [
+          "ZynqMPSoC/pl_clk0",
+          "DMA_JTAG/s_axis_aclk"
         ]
       },
       "ZynqMPSoC_pl_clk1": {
