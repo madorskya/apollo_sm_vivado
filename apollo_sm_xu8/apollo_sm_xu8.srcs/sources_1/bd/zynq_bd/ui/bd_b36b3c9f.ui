@@ -164,124 +164,119 @@ preplace inst ESM_UART -pg 1 -lvl 8 -x 4120 -y 4814 -defaultsOSRD
 preplace inst AXI_MON -pg 1 -lvl 4 -x 1780 -y 3230 -defaultsOSRD
 preplace inst INT_AXI_FW -pg 1 -lvl 4 -x 1780 -y 2950 -defaultsOSRD
 preplace inst DMA_JTAG -pg 1 -lvl 8 -x 4120 -y 3406 -defaultsOSRD
-preplace inst DMA_JTAG|axis_data_fifo_0 -pg 1 -lvl 2 -x 4550 -y 3596 -defaultsOSRD
-preplace inst DMA_JTAG|axi_dma_0 -pg 1 -lvl 1 -x 4210 -y 3476 -defaultsOSRD
-preplace inst DMA_JTAG|xlconstant_0 -pg 1 -lvl 2 -x 4550 -y 3796 -defaultsOSRD
-preplace inst DMA_JTAG|axis_jtag_0 -pg 1 -lvl 3 -x 4870 -y 3796 -defaultsOSRD
-preplace inst DMA_JTAG|axi_interconnect_0 -pg 1 -lvl 3 -x 4870 -y 3526 -defaultsOSRD
-preplace netloc C2C1B_PHY_channel_up1 1 6 3 2950 840 NJ 840 5230
+preplace netloc C2C1B_PHY_channel_up1 1 6 3 2950 840 NJ 840 4380
 preplace netloc C2C1B_PHY_gt_pll_lock1 1 8 1 NJ 1360
 preplace netloc C2C1B_PHY_hard_err1 1 8 1 NJ 1380
 preplace netloc C2C1B_PHY_lane_up1 1 8 1 NJ 1400
 preplace netloc C2C1B_PHY_link_reset_out1 1 8 1 NJ 1500
-preplace netloc C2C1B_PHY_mmcm_not_locked_out1 1 6 3 2940 820 NJ 820 5250
+preplace netloc C2C1B_PHY_mmcm_not_locked_out1 1 6 3 2940 820 NJ 820 4400
 preplace netloc C2C1B_PHY_power_down_1 1 0 8 NJ 1430 NJ 1430 NJ 1430 NJ 1430 NJ 1430 NJ 1430 NJ 1430 NJ
 preplace netloc C2C1B_PHY_refclk_1 1 0 8 NJ 1470 NJ 1470 NJ 1470 NJ 1470 NJ 1470 NJ 1470 NJ 1470 NJ
 preplace netloc C2C1B_PHY_soft_err1 1 8 1 NJ 1440
-preplace netloc C2C1B_PHY_user_clk_out 1 6 3 2960 1830 NJ 1830 5250
-preplace netloc C2C1B_aurora_do_cc1 1 7 2 3860J 2000 5460J
+preplace netloc C2C1B_PHY_user_clk_out 1 6 3 2960 1830 NJ 1830 4400
+preplace netloc C2C1B_aurora_do_cc1 1 7 2 3910J 2000 4610J
 preplace netloc C2C1B_aurora_pma_init_in_1 1 0 7 NJ 1780 NJ 1780 NJ 1780 1470J 1740 NJ 1740 NJ 1740 2900J
-preplace netloc C2C1B_aurora_pma_init_out 1 7 1 3620 1510n
-preplace netloc C2C1B_aurora_reset_pb1 1 7 2 3850 2010 5520J
+preplace netloc C2C1B_aurora_pma_init_out 1 7 1 3610 1510n
+preplace netloc C2C1B_aurora_reset_pb1 1 7 2 3900 2010 4670J
 preplace netloc C2C1B_axi_c2c_config_error_out1 1 7 2 NJ 2020 NJ
 preplace netloc C2C1B_axi_c2c_link_error_out1 1 7 2 NJ 2080 NJ
 preplace netloc C2C1B_axi_c2c_link_status_out1 1 7 2 NJ 2040 NJ
 preplace netloc C2C1B_axi_c2c_multi_bit_error_out1 1 7 2 NJ 2060 NJ
 preplace netloc C2C1B_axi_c2c_s2m_intr_out 1 4 4 2060 1530 NJ 1530 NJ 1530 3450
-preplace netloc C2C1_PHY_channel_up1 1 6 3 2870 10 NJ 10 5230
+preplace netloc C2C1_PHY_channel_up1 1 6 3 2870 10 NJ 10 4380
 preplace netloc C2C1_PHY_gt_pll_lock1 1 8 1 NJ 160
 preplace netloc C2C1_PHY_hard_err1 1 8 1 NJ 180
 preplace netloc C2C1_PHY_lane_up1 1 8 1 NJ 200
 preplace netloc C2C1_PHY_link_reset_out1 1 8 1 NJ 300
-preplace netloc C2C1_PHY_mmcm_not_locked_out1 1 6 3 2970 20 NJ 20 5250
+preplace netloc C2C1_PHY_mmcm_not_locked_out1 1 6 3 2970 20 NJ 20 4400
 preplace netloc C2C1_PHY_power_down_1 1 0 8 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ
 preplace netloc C2C1_PHY_refclk_1 1 0 8 NJ 270 NJ 270 NJ 270 NJ 270 NJ 270 NJ 270 NJ 270 NJ
 preplace netloc C2C1_PHY_soft_err1 1 8 1 NJ 240
-preplace netloc C2C1_PHY_user_clk_out 1 6 3 2960 670 NJ 670 5220
-preplace netloc C2C1_aurora_do_cc1 1 7 2 3850J 480 NJ
+preplace netloc C2C1_PHY_user_clk_out 1 6 3 2960 670 NJ 670 4370
+preplace netloc C2C1_aurora_do_cc1 1 7 2 3900J 480 NJ
 preplace netloc C2C1_aurora_pma_init_in_1 1 0 7 NJ 550 NJ 550 NJ 550 NJ 550 NJ 550 NJ 550 NJ
-preplace netloc C2C1_aurora_pma_init_out 1 7 1 3630 310n
-preplace netloc C2C1_aurora_reset_pb1 1 7 2 3730 500 NJ
+preplace netloc C2C1_aurora_pma_init_out 1 7 1 3620 310n
+preplace netloc C2C1_aurora_reset_pb1 1 7 2 3780 500 NJ
 preplace netloc C2C1_axi_c2c_config_error_out1 1 7 2 NJ 520 NJ
 preplace netloc C2C1_axi_c2c_link_error_out1 1 7 2 NJ 580 NJ
 preplace netloc C2C1_axi_c2c_link_status_out1 1 7 2 NJ 540 NJ
 preplace netloc C2C1_axi_c2c_multi_bit_error_out1 1 7 2 NJ 560 NJ
 preplace netloc C2C1_axi_c2c_s2m_intr_out 1 4 4 2080 1540 NJ 1540 NJ 1540 3480
-preplace netloc C2C2B_PHY_channel_up1 1 6 3 2950 2240 3580J 2130 5300
+preplace netloc C2C2B_PHY_channel_up1 1 6 3 2950 2240 3570J 2130 4470
 preplace netloc C2C2B_PHY_gt_pll_lock1 1 8 1 NJ 2970
 preplace netloc C2C2B_PHY_hard_err1 1 8 1 NJ 2990
 preplace netloc C2C2B_PHY_lane_up1 1 8 1 NJ 3010
 preplace netloc C2C2B_PHY_link_reset_out1 1 8 1 NJ 3110
-preplace netloc C2C2B_PHY_mmcm_not_locked_out1 1 6 3 2940 2200 3560J 2140 5460
-preplace netloc C2C2B_PHY_power_down_1 1 0 8 -60J 2410 NJ 2410 NJ 2410 NJ 2410 2020J 2650 NJ 2650 NJ 2650 3800J
-preplace netloc C2C2B_PHY_refclk_1 1 0 8 -30J 2420 NJ 2420 NJ 2420 NJ 2420 2010J 2660 NJ 2660 NJ 2660 3750J
+preplace netloc C2C2B_PHY_mmcm_not_locked_out1 1 6 3 2940 2200 3550J 2140 4610
+preplace netloc C2C2B_PHY_power_down_1 1 0 8 -60J 2410 NJ 2410 NJ 2410 NJ 2410 2020J 2650 NJ 2650 NJ 2650 3850J
+preplace netloc C2C2B_PHY_refclk_1 1 0 8 -30J 2420 NJ 2420 NJ 2420 NJ 2420 2010J 2660 NJ 2660 NJ 2660 3800J
 preplace netloc C2C2B_PHY_soft_err1 1 8 1 NJ 3050
-preplace netloc C2C2B_PHY_user_clk_out 1 6 3 2970 2290 3600J 2150 5380
-preplace netloc C2C2B_aurora_do_cc1 1 7 2 3810J 2780 5520J
+preplace netloc C2C2B_PHY_user_clk_out 1 6 3 2970 2290 3590J 2150 4530
+preplace netloc C2C2B_aurora_do_cc1 1 7 2 3860J 2780 4670J
 preplace netloc C2C2B_aurora_pma_init_in_1 1 0 7 -40J 2430 NJ 2430 NJ 2430 NJ 2430 2000J 2670 NJ 2670 2840J
-preplace netloc C2C2B_aurora_pma_init_out 1 7 1 3590 3010n
-preplace netloc C2C2B_aurora_reset_pb1 1 7 2 3860 2790 5510J
-preplace netloc C2C2B_axi_c2c_config_error_out1 1 7 2 3820J 2800 5490J
-preplace netloc C2C2B_axi_c2c_link_error_out1 1 7 2 3840J 2810 5330J
-preplace netloc C2C2B_axi_c2c_link_status_out1 1 7 2 3830J 2820 5360J
-preplace netloc C2C2B_axi_c2c_multi_bit_error_out1 1 7 2 3850J 2830 5310J
+preplace netloc C2C2B_aurora_pma_init_out 1 7 1 3580 3010n
+preplace netloc C2C2B_aurora_reset_pb1 1 7 2 3910 2790 4660J
+preplace netloc C2C2B_axi_c2c_config_error_out1 1 7 2 3870J 2800 4640J
+preplace netloc C2C2B_axi_c2c_link_error_out1 1 7 2 3890J 2810 4490J
+preplace netloc C2C2B_axi_c2c_link_status_out1 1 7 2 3880J 2820 4510J
+preplace netloc C2C2B_axi_c2c_multi_bit_error_out1 1 7 2 3900J 2830 4480J
 preplace netloc C2C2B_axi_c2c_s2m_intr_out 1 4 4 2110 1560 NJ 1560 NJ 1560 3480
-preplace netloc C2C2_PHY_channel_up1 1 6 3 2960 4050 NJ 4050 5280
-preplace netloc C2C2_PHY_gt_pll_lock1 1 8 1 5390J 4090n
-preplace netloc C2C2_PHY_hard_err1 1 8 1 5400J 4110n
-preplace netloc C2C2_PHY_lane_up1 1 8 1 5410J 4130n
-preplace netloc C2C2_PHY_link_reset_out1 1 8 1 5440J 4230n
-preplace netloc C2C2_PHY_mmcm_not_locked_out1 1 6 3 2970 4150 NJ 4150 5320
+preplace netloc C2C2_PHY_channel_up1 1 6 3 2960 4050 NJ 4050 4430
+preplace netloc C2C2_PHY_gt_pll_lock1 1 8 1 4540J 4090n
+preplace netloc C2C2_PHY_hard_err1 1 8 1 4550J 4110n
+preplace netloc C2C2_PHY_lane_up1 1 8 1 4560J 4130n
+preplace netloc C2C2_PHY_link_reset_out1 1 8 1 4590J 4230n
+preplace netloc C2C2_PHY_mmcm_not_locked_out1 1 6 3 2970 4150 NJ 4150 4470
 preplace netloc C2C2_PHY_power_down_1 1 0 8 NJ 4160 NJ 4160 NJ 4160 NJ 4160 NJ 4160 NJ 4160 NJ 4160 3430J
 preplace netloc C2C2_PHY_refclk_1 1 0 8 NJ 4200 NJ 4200 NJ 4200 NJ 4200 NJ 4200 NJ 4200 NJ 4200 3410J
-preplace netloc C2C2_PHY_soft_err1 1 8 1 5420J 4170n
-preplace netloc C2C2_PHY_user_clk_out 1 6 3 2950 4250 NJ 4250 5370
-preplace netloc C2C2_aurora_do_cc1 1 7 2 3540J 3900 5280J
+preplace netloc C2C2_PHY_soft_err1 1 8 1 4570J 4170n
+preplace netloc C2C2_PHY_user_clk_out 1 6 3 2950 4250 NJ 4250 4520
+preplace netloc C2C2_aurora_do_cc1 1 7 2 3530J 3900 4430J
 preplace netloc C2C2_aurora_pma_init_in_1 1 0 7 NJ 3910 NJ 3910 NJ 3910 NJ 3910 NJ 3910 NJ 3910 NJ
 preplace netloc C2C2_aurora_pma_init_out 1 7 1 3460 3840n
-preplace netloc C2C2_aurora_reset_pb1 1 7 2 3450 3970 5510J
-preplace netloc C2C2_axi_c2c_config_error_out1 1 7 2 3510J 3920 5340J
+preplace netloc C2C2_aurora_reset_pb1 1 7 2 3450 3970 4660J
+preplace netloc C2C2_axi_c2c_config_error_out1 1 7 2 3510J 3920 4490J
 preplace netloc C2C2_axi_c2c_link_error_out1 1 7 2 NJ 3940 NJ
-preplace netloc C2C2_axi_c2c_link_status_out1 1 7 2 3500J 3910 5350J
-preplace netloc C2C2_axi_c2c_multi_bit_error_out1 1 7 2 3470J 3960 5520J
+preplace netloc C2C2_axi_c2c_link_status_out1 1 7 2 3500J 3910 4500J
+preplace netloc C2C2_axi_c2c_multi_bit_error_out1 1 7 2 3470J 3960 4670J
 preplace netloc C2C2_axi_c2c_s2m_intr_out 1 4 4 2140 3100 NJ 3100 2860J 2840 3450
-preplace netloc CM1_PB_UART_interrupt 1 4 5 2090 1550 NJ 1550 NJ 1550 3840J 1840 5180
-preplace netloc CM1_UART_interrupt 1 4 5 2120 1770 2570J 1790 2880J 1800 NJ 1800 5220
-preplace netloc CM2_PB_UART_interrupt 1 4 5 2150 1780 2560J 1810 NJ 1810 NJ 1810 5230
-preplace netloc CM2_UART_interrupt 1 4 5 2100 1750 NJ 1750 2890J 1820 NJ 1820 5240
-preplace netloc ESM_UART_interrupt 1 4 5 2110 3110 NJ 3110 2880J 2770 NJ 2770 5180
-preplace netloc INIT_CLK_1 1 0 8 NJ 3930 NJ 3930 NJ 3930 NJ 3930 NJ 3930 NJ 3930 2870 680 3760
+preplace netloc CM1_PB_UART_interrupt 1 4 5 2090 1550 NJ 1550 NJ 1550 3890J 1840 4330
+preplace netloc CM1_UART_interrupt 1 4 5 2120 1770 2570J 1790 2880J 1800 NJ 1800 4370
+preplace netloc CM2_PB_UART_interrupt 1 4 5 2150 1780 2560J 1810 NJ 1810 NJ 1810 4380
+preplace netloc CM2_UART_interrupt 1 4 5 2100 1750 NJ 1750 2890J 1820 NJ 1820 4390
+preplace netloc ESM_UART_interrupt 1 4 5 2110 3110 NJ 3110 2880J 2770 NJ 2770 4330
+preplace netloc INIT_CLK_1 1 0 8 NJ 3930 NJ 3930 NJ 3930 NJ 3930 NJ 3930 NJ 3930 2870 680 3810
 preplace netloc IRQ0_INTR_CTRL_IRQ_dout 1 5 1 2590 2860n
 preplace netloc IRQ0_INTR_CTRL_irq 1 1 6 360 2440 NJ 2440 NJ 2440 1940J 2700 NJ 2700 2830
-preplace netloc MONITOR_alarm_out 1 8 1 5520J 4970n
-preplace netloc MONITOR_ot_out 1 8 1 5510J 4910n
-preplace netloc MONITOR_vccaux_alarm_out 1 8 1 5500J 4890n
-preplace netloc MONITOR_vccint_alarm_out 1 8 1 5490J 4810n
-preplace netloc SI_iic2intc_irpt 1 4 5 2130 1570 NJ 1570 NJ 1570 3830J 1850 5270
-preplace netloc SI_scl_i_1 1 0 9 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 3470J 4440 5220
-preplace netloc SI_scl_o1 1 8 1 5460J 4540n
-preplace netloc SI_scl_t1 1 8 1 5450J 4520n
-preplace netloc SI_sda_i_1 1 0 9 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 5190
-preplace netloc SI_sda_o1 1 8 1 5470J 4610n
-preplace netloc SI_sda_t1 1 8 1 5480J 4630n
+preplace netloc MONITOR_alarm_out 1 8 1 4670J 4970n
+preplace netloc MONITOR_ot_out 1 8 1 4660J 4910n
+preplace netloc MONITOR_vccaux_alarm_out 1 8 1 4650J 4890n
+preplace netloc MONITOR_vccint_alarm_out 1 8 1 4640J 4810n
+preplace netloc SI_iic2intc_irpt 1 4 5 2130 1570 NJ 1570 NJ 1570 3880J 1850 4420
+preplace netloc SI_scl_i_1 1 0 9 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ 4430 3470J 4440 4370
+preplace netloc SI_scl_o1 1 8 1 4610J 4540n
+preplace netloc SI_scl_t1 1 8 1 4600J 4520n
+preplace netloc SI_sda_i_1 1 0 9 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 NJ 4730 4340
+preplace netloc SI_sda_o1 1 8 1 4620J 4610n
+preplace netloc SI_sda_t1 1 8 1 4630J 4630n
 preplace netloc SYS_RESET_BUS_RST_N_Res 1 8 1 NJ 1720
-preplace netloc SYS_RESET_bus_struct_reset 1 7 1 3820J 1680n
-preplace netloc SYS_RESET_interconnect_aresetn 1 7 2 3800J 1780 NJ
-preplace netloc SYS_RESET_peripheral_aresetn 1 7 2 3780J 1790 5260J
-preplace netloc ZynqMPSoC_pl_clk1 1 0 9 20 1020 340 2470 1110 2470 1590 2470 2040 1760 2510 1800 2850 1380 3720 4430 NJ
+preplace netloc SYS_RESET_bus_struct_reset 1 7 1 3870J 1680n
+preplace netloc SYS_RESET_interconnect_aresetn 1 7 2 3850J 1780 NJ
+preplace netloc SYS_RESET_peripheral_aresetn 1 7 2 3830J 1790 4410J
+preplace netloc ZynqMPSoC_pl_clk0 1 2 6 1130J 2450 NJ 2450 1930J 2690 NJ 2690 NJ 2690 3590
+preplace netloc ZynqMPSoC_pl_clk1 1 0 9 20 1020 340 2470 1110 2470 1590 2470 2040 1760 2510 1800 2850 1380 3770 4430 NJ
 preplace netloc ZynqMPSoC_pl_resetn0 1 2 5 1140J 2460 NJ 2460 1920J 2680 NJ 2680 2910
-preplace netloc axi_dma_0_mm2s_introut 1 4 5 2050 1580 N 1580 N 1580 3810 1860 5200
-preplace netloc axi_dma_0_s2mm_introut 1 4 5 2070 1590 N 1590 N 1590 3790 1870 5260
+preplace netloc axi_dma_0_mm2s_introut 1 4 5 2050 1580 N 1580 N 1580 3860 1860 4350
+preplace netloc axi_dma_0_s2mm_introut 1 4 5 2070 1590 N 1590 N 1590 3840 1870 4410
 preplace netloc c2c_interconnect_reset_1 1 0 7 NJ 3560 NJ 3560 NJ 3560 NJ 3560 NJ 3560 NJ 3560 NJ
-preplace netloc sys_resetter_c2c_BUS_RST_N_Res 1 8 1 5360J 3680n
+preplace netloc sys_resetter_c2c_BUS_RST_N_Res 1 8 1 4510J 3680n
 preplace netloc sys_resetter_c2c_bus_struct_reset 1 7 1 3490J 3540n
-preplace netloc sys_resetter_c2c_interconnect_aresetn 1 2 7 1160 2480 1570 3420 NJ 3420 NJ 3420 NJ 3420 3550 3930 5290J
-preplace netloc sys_resetter_c2c_peripheral_aresetn 1 2 7 1160 3010 1630 3460 NJ 3460 NJ 3460 NJ 3460 3530 3950 5320J
-preplace netloc sys_resetter_primary_BUS_RST_N_Res 1 8 1 5330J 3580n
+preplace netloc sys_resetter_c2c_interconnect_aresetn 1 2 7 1160 2480 1570 3420 NJ 3420 NJ 3420 NJ 3420 3540 3930 4440J
+preplace netloc sys_resetter_c2c_peripheral_aresetn 1 2 7 1160 3010 1630 3460 NJ 3460 NJ 3460 NJ 3460 3910 3950 4470J
+preplace netloc sys_resetter_primary_BUS_RST_N_Res 1 8 1 4480J 3580n
 preplace netloc sys_resetter_primary_bus_struct_reset 1 7 1 3520J 3300n
-preplace netloc sys_resetter_primary_interconnect_aresetn 1 3 6 1650 3410 1990 3220 NJ 3220 NJ 3220 3480 3316 5300J
-preplace netloc sys_resetter_primary_peripheral_aresetn 1 0 9 0 1060 NJ 1060 NJ 1060 NJ 1060 2030 1710 2550 3200 NJ 3200 3730 4450 NJ
-preplace netloc ZynqMPSoC_pl_clk0 1 2 6 1130J 2450 NJ 2450 1930J 2690 NJ 2690 NJ 2690 3600
+preplace netloc sys_resetter_primary_interconnect_aresetn 1 3 6 1650 3410 1990 3220 NJ 3220 NJ 3220 3480 3316 4470J
+preplace netloc sys_resetter_primary_peripheral_aresetn 1 0 9 0 1060 NJ 1060 NJ 1060 NJ 1060 2030 1710 2550 3200 NJ 3200 3780 4450 NJ
 preplace netloc AXIM_PL_1 1 0 4 NJ 3040 NJ 3040 NJ 3040 1610J
 preplace netloc AXI_C2C_INTERCONNECT_M00_AXI 1 3 3 1460J 1720 NJ 1720 2590
 preplace netloc AXI_C2C_INTERCONNECT_M01_AXI 1 3 3 1480J 1730 NJ 1730 2580
@@ -290,9 +285,9 @@ preplace netloc AXI_C2C_INTERCONNECT_M03_AXI 1 3 3 1580 2700 1910J 2710 2460J
 preplace netloc AXI_C2C_INTERCONNECT_M04_AXI 1 3 1 1600 2750n
 preplace netloc AXI_C2C_INTERCONNECT_M05_AXI 1 3 1 1520 2770n
 preplace netloc AXI_C2C_INTERCONNECT_M06_AXI 1 3 1 1510 2790n
-preplace netloc AXI_C2C_INTERCONNECT_M07_AXI 1 3 5 1500 2640 N 2640 N 2640 N 2640 3620
-preplace netloc AXI_LOCAL_INTERCONNECT_M00_AXI 1 0 9 30 1000 320J 850 1110J 810 NJ 810 NJ 810 NJ 810 NJ 810 NJ 810 5220
-preplace netloc AXI_LOCAL_INTERCONNECT_M01_AXI 1 0 9 30 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 2840J 830 NJ 830 5190
+preplace netloc AXI_C2C_INTERCONNECT_M07_AXI 1 3 5 1500 2640 N 2640 N 2640 N 2640 3610
+preplace netloc AXI_LOCAL_INTERCONNECT_M00_AXI 1 0 9 30 1000 320J 850 1110J 810 NJ 810 NJ 810 NJ 810 NJ 810 NJ 810 4370
+preplace netloc AXI_LOCAL_INTERCONNECT_M01_AXI 1 0 9 30 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 2840J 830 NJ 830 4340
 preplace netloc AXI_LOCAL_INTERCONNECT_M02_AXI 1 8 1 NJ 1040
 preplace netloc AXI_LOCAL_INTERCONNECT_M03_AXI 1 8 1 NJ 1060
 preplace netloc AXI_LOCAL_INTERCONNECT_M04_AXI 1 8 1 NJ 1080
@@ -302,21 +297,21 @@ preplace netloc AXI_MAIN_INTERCONNECT_M02_AXI 1 5 1 2530 1930n
 preplace netloc AXI_MAIN_INTERCONNECT_M03_AXI 1 5 1 2470 2130n
 preplace netloc AXI_MAIN_INTERCONNECT_M04_AXI 1 5 1 2480 2150n
 preplace netloc AXI_MAIN_INTERCONNECT_M05_AXI 1 5 3 2520J 1370 NJ 1370 3520
-preplace netloc AXI_MAIN_INTERCONNECT_M06_AXI 1 5 3 2500J 2210 NJ 2210 3570
-preplace netloc AXI_MAIN_INTERCONNECT_M07_AXI 1 5 3 2490J 2220 NJ 2220 3560
-preplace netloc AXI_MAIN_INTERCONNECT_M08_AXI 1 5 4 NJ 2230 NJ 2230 3590J 2160 5520J
-preplace netloc AXI_MAIN_INTERCONNECT_M09_AXI 1 5 4 NJ 2250 NJ 2250 3620J 2170 5510J
+preplace netloc AXI_MAIN_INTERCONNECT_M06_AXI 1 5 3 2500J 2210 NJ 2210 3560
+preplace netloc AXI_MAIN_INTERCONNECT_M07_AXI 1 5 3 2490J 2220 NJ 2220 3550
+preplace netloc AXI_MAIN_INTERCONNECT_M08_AXI 1 5 4 NJ 2230 NJ 2230 3580J 2160 4670J
+preplace netloc AXI_MAIN_INTERCONNECT_M09_AXI 1 5 4 NJ 2250 NJ 2250 3610J 2170 4660J
 preplace netloc AXI_MAIN_INTERCONNECT_M10_AXI 1 5 3 NJ 2270 NJ 2270 3450
-preplace netloc AXI_MAIN_INTERCONNECT_M11_AXI 1 5 3 NJ 2290 2830J 2300 3860
-preplace netloc AXI_MAIN_INTERCONNECT_M12_AXI 1 5 3 2590J 2280 NJ 2280 3860
-preplace netloc AXI_MAIN_INTERCONNECT_M13_AXI 1 5 3 NJ 2330 NJ 2330 3850
-preplace netloc AXI_MAIN_INTERCONNECT_M14_AXI 1 5 3 NJ 2350 NJ 2350 3580
-preplace netloc C2C1B_AXIS_TX 1 7 1 3600 1370n
+preplace netloc AXI_MAIN_INTERCONNECT_M11_AXI 1 5 3 NJ 2290 2830J 2300 3910
+preplace netloc AXI_MAIN_INTERCONNECT_M12_AXI 1 5 3 2590J 2280 NJ 2280 3910
+preplace netloc AXI_MAIN_INTERCONNECT_M13_AXI 1 5 3 NJ 2330 NJ 2330 3900
+preplace netloc AXI_MAIN_INTERCONNECT_M14_AXI 1 5 3 NJ 2350 NJ 2350 3570
+preplace netloc C2C1B_AXIS_TX 1 7 1 3570 1370n
 preplace netloc C2C1B_PHY_DRP_1 1 0 8 NJ 1390 NJ 1390 NJ 1390 NJ 1390 NJ 1390 NJ 1390 NJ 1390 NJ
 preplace netloc C2C1B_PHY_GT_SERIAL_TX 1 8 1 NJ 1460
 preplace netloc C2C1B_PHY_Rx_1 1 0 8 NJ 1450 NJ 1450 NJ 1450 NJ 1450 NJ 1450 NJ 1450 NJ 1450 NJ
 preplace netloc C2C1B_PHY_TRANSCEIVER_DEBUG 1 8 1 NJ 1300
-preplace netloc C2C1B_PHY_USER_DATA_M_AXIS_RX 1 6 3 2970 2170 3520J 1990 5190
+preplace netloc C2C1B_PHY_USER_DATA_M_AXIS_RX 1 6 3 2970 2170 3520J 1990 4340
 preplace netloc C2C1_AXILITE_FW_M_AXI 1 6 1 N 1910
 preplace netloc C2C1_AXIS_TX 1 7 1 3480 170n
 preplace netloc C2C1_AXI_FW_M_AXI 1 6 1 2830 390n
@@ -324,26 +319,26 @@ preplace netloc C2C1_PHY_DRP_1 1 0 8 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 N
 preplace netloc C2C1_PHY_GT_SERIAL_TX 1 8 1 NJ 260
 preplace netloc C2C1_PHY_Rx_1 1 0 8 NJ 250 NJ 250 NJ 250 NJ 250 NJ 250 NJ 250 NJ 250 NJ
 preplace netloc C2C1_PHY_TRANSCEIVER_DEBUG 1 8 1 NJ 100
-preplace netloc C2C1_PHY_USER_DATA_M_AXIS_RX 1 6 3 2850 0 NJ 0 5220
-preplace netloc C2C2B_AXIS_TX 1 7 1 3740 2950n
-preplace netloc C2C2B_PHY_DRP_1 1 0 8 -50J 3050 NJ 3050 NJ 3050 1640J 3040 1920J 3080 NJ 3080 2830J 2850 3790J
+preplace netloc C2C1_PHY_USER_DATA_M_AXIS_RX 1 6 3 2850 0 NJ 0 4370
+preplace netloc C2C2B_AXIS_TX 1 7 1 3790 2950n
+preplace netloc C2C2B_PHY_DRP_1 1 0 8 -50J 3050 NJ 3050 NJ 3050 1640J 3040 1920J 3080 NJ 3080 2830J 2850 3840J
 preplace netloc C2C2B_PHY_GT_SERIAL_TX 1 8 1 NJ 3070
-preplace netloc C2C2B_PHY_Rx_1 1 0 8 -20J 3060 NJ 3060 NJ 3060 1650J 3050 1910J 3090 NJ 3090 2900J 2860 3610J
+preplace netloc C2C2B_PHY_Rx_1 1 0 8 -20J 3060 NJ 3060 NJ 3060 1650J 3050 1910J 3090 NJ 3090 2900J 2860 3600J
 preplace netloc C2C2B_PHY_TRANSCEIVER_DEBUG 1 8 1 NJ 2910
-preplace netloc C2C2B_PHY_USER_DATA_M_AXIS_RX 1 6 3 2920 2180 NJ 2180 5190
+preplace netloc C2C2B_PHY_USER_DATA_M_AXIS_RX 1 6 3 2920 2180 NJ 2180 4340
 preplace netloc C2C2_AXILITE_FW_M_AXI 1 6 1 2890 2940n
 preplace netloc C2C2_AXIS_TX 1 7 1 3480 3780n
 preplace netloc C2C2_AXI_FW_M_AXI 1 6 1 2830 3300n
 preplace netloc C2C2_PHY_DRP_1 1 0 8 NJ 4120 NJ 4120 NJ 4120 NJ 4120 NJ 4120 NJ 4120 NJ 4120 3440J
-preplace netloc C2C2_PHY_GT_SERIAL_TX 1 8 1 5430J 4190n
+preplace netloc C2C2_PHY_GT_SERIAL_TX 1 8 1 4580J 4190n
 preplace netloc C2C2_PHY_Rx_1 1 0 8 NJ 4180 NJ 4180 NJ 4180 NJ 4180 NJ 4180 NJ 4180 NJ 4180 3420J
-preplace netloc C2C2_PHY_TRANSCEIVER_DEBUG 1 8 1 5380J 4030n
-preplace netloc C2C2_PHY_USER_DATA_M_AXIS_RX 1 6 3 2930 2190 NJ 2190 5210
+preplace netloc C2C2_PHY_TRANSCEIVER_DEBUG 1 8 1 4530J 4030n
+preplace netloc C2C2_PHY_USER_DATA_M_AXIS_RX 1 6 3 2930 2190 NJ 2190 4360
 preplace netloc CM1_PB_UART_UART 1 8 1 NJ 2260
 preplace netloc CM1_UART_UART 1 8 1 NJ 2400
 preplace netloc CM2_PB_UART_UART 1 8 1 NJ 2540
 preplace netloc CM2_UART_UART 1 8 1 NJ 2680
-preplace netloc ESM_UART_UART 1 8 1 5300J 3450n
+preplace netloc ESM_UART_UART 1 8 1 4450J 3450n
 preplace netloc PL_MEM_BRAM_PORTA 1 1 1 310 920n
 preplace netloc PL_MEM_CM_BRAM_PORTA 1 1 1 320 750n
 preplace netloc PL_MEM_CM_RAM_PORTB_1 1 0 2 NJ 830 320J
@@ -352,26 +347,10 @@ preplace netloc S00_AXI_1 1 4 1 1950 1840n
 preplace netloc S01_AXI_1 1 4 1 1960 1860n
 preplace netloc ZynqMPSoC_M_AXI_HPM0_FPD 1 2 2 1120J 3000 1620
 preplace netloc ZynqMPSoC_M_AXI_HPM1_FPD 1 2 2 1150 3150 N
-preplace netloc axi_interconnect_0_M00_AXI 1 1 8 370 1600 NJ 1600 NJ 1600 NJ 1600 N 1600 N 1600 3770 1880 5250
-preplace netloc axis_jtag_0_jtag_0 1 8 1 5310J 3506n
-preplace netloc DMA_JTAG|ZynqMPSoC_pl_clk0 1 0 3 4030 3606 4400 3476 4720
-preplace netloc DMA_JTAG|axi_dma_0_mm2s_introut 1 1 3 4390 3496 4690J 3706 5030J
-preplace netloc DMA_JTAG|axi_dma_0_s2mm_introut 1 1 3 4430 3506 4680J 3716 NJ
-preplace netloc DMA_JTAG|sys_resetter_c2c_peripheral_aresetn 1 0 3 4020 3616 4410 3486 4710
-preplace netloc DMA_JTAG|xlconstant_0_dout 1 2 1 NJ 3796
-preplace netloc DMA_JTAG|Net 1 0 3 N 3856 4390 3856 4710
-preplace netloc DMA_JTAG|AXI_C2C_INTERCONNECT_M07_AXI 1 0 1 N 3416
-preplace netloc DMA_JTAG|axi_dma_0_M_AXIS_MM2S 1 1 1 4420 3466n
-preplace netloc DMA_JTAG|axi_dma_0_M_AXI_MM2S 1 1 2 N 3426 NJ
-preplace netloc DMA_JTAG|axi_dma_0_M_AXI_S2MM 1 1 2 N 3446 NJ
-preplace netloc DMA_JTAG|axi_dma_0_M_AXI_SG 1 1 2 N 3406 NJ
-preplace netloc DMA_JTAG|axi_interconnect_0_M00_AXI 1 3 1 N 3526
-preplace netloc DMA_JTAG|axis_data_fifo_0_M_AXIS 1 2 1 4670 3596n
-preplace netloc DMA_JTAG|axis_jtag_0_jtag_0 1 3 1 5020 3506n
+preplace netloc axi_interconnect_0_M00_AXI 1 1 8 370 1600 NJ 1600 NJ 1600 NJ 1600 N 1600 N 1600 3820 1880 4400
+preplace netloc axis_jtag_0_jtag_0 1 8 1 4460J 3376n
 levelinfo -pg 1 -80 170 730 1310 1780 2300 2710 3190 4120 5670
-levelinfo -hier DMA_JTAG * 4210 4550 4870 *
 pagesize -pg 1 -db -bbox -sgen -330 -130 6070 6450
-pagesize -hier DMA_JTAG -db -bbox -sgen 3990 3346 5060 3876
 "
 }
 0
