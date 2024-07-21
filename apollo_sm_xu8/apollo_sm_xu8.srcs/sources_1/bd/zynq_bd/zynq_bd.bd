@@ -4086,7 +4086,7 @@
             "value": "pullup"
           },
           "PSU_MIO_46_DRIVE_STRENGTH": {
-            "value": "12"
+            "value": "4"
           },
           "PSU_MIO_46_INPUT_TYPE": {
             "value": "cmos"
@@ -4095,10 +4095,10 @@
             "value": "pullup"
           },
           "PSU_MIO_46_SLEW": {
-            "value": "fast"
+            "value": "slow"
           },
           "PSU_MIO_47_DRIVE_STRENGTH": {
-            "value": "12"
+            "value": "4"
           },
           "PSU_MIO_47_INPUT_TYPE": {
             "value": "cmos"
@@ -4107,10 +4107,10 @@
             "value": "pullup"
           },
           "PSU_MIO_47_SLEW": {
-            "value": "fast"
+            "value": "slow"
           },
           "PSU_MIO_48_DRIVE_STRENGTH": {
-            "value": "12"
+            "value": "4"
           },
           "PSU_MIO_48_INPUT_TYPE": {
             "value": "cmos"
@@ -4119,10 +4119,10 @@
             "value": "pullup"
           },
           "PSU_MIO_48_SLEW": {
-            "value": "fast"
+            "value": "slow"
           },
           "PSU_MIO_49_DRIVE_STRENGTH": {
-            "value": "12"
+            "value": "4"
           },
           "PSU_MIO_49_INPUT_TYPE": {
             "value": "cmos"
@@ -4131,7 +4131,7 @@
             "value": "pullup"
           },
           "PSU_MIO_49_SLEW": {
-            "value": "fast"
+            "value": "slow"
           },
           "PSU_MIO_4_DRIVE_STRENGTH": {
             "value": "12"
@@ -4146,7 +4146,7 @@
             "value": "fast"
           },
           "PSU_MIO_50_DRIVE_STRENGTH": {
-            "value": "12"
+            "value": "4"
           },
           "PSU_MIO_50_INPUT_TYPE": {
             "value": "cmos"
@@ -4155,16 +4155,16 @@
             "value": "pullup"
           },
           "PSU_MIO_50_SLEW": {
-            "value": "fast"
+            "value": "slow"
           },
           "PSU_MIO_51_DRIVE_STRENGTH": {
-            "value": "12"
+            "value": "4"
           },
           "PSU_MIO_51_PULLUPDOWN": {
-            "value": "disable"
+            "value": "pullup"
           },
           "PSU_MIO_51_SLEW": {
-            "value": "fast"
+            "value": "slow"
           },
           "PSU_MIO_52_DRIVE_STRENGTH": {
             "value": "12"
@@ -6143,10 +6143,7 @@
             "value": "4Bit"
           },
           "PSU__SD1__GRP_CD__ENABLE": {
-            "value": "1"
-          },
-          "PSU__SD1__GRP_CD__IO": {
-            "value": "MIO 45"
+            "value": "0"
           },
           "PSU__SD1__GRP_POW__ENABLE": {
             "value": "0"
